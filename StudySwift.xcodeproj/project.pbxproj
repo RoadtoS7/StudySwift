@@ -10,6 +10,7 @@
 		2E45CE8D27BB8E6B0002F847 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE8C27BB8E6B0002F847 /* main.swift */; };
 		2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE9327BB8E890002F847 /* KeyPathExpression.swift */; };
 		2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E612F1927F3368F00088E42 /* Automatic Initalizer Inheritance.swift */; };
+		2E612F1E27F346E400088E42 /* Failable Initializer with Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E612F1D27F346E400088E42 /* Failable Initializer with Enumerations.swift */; };
 		2E67BBF427F136E5008D914C /* ControlStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E67BBF327F136E5008D914C /* ControlStatement.swift */; };
 		2EB7FE0E27E8AE7F009F2E20 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */; };
 		2EC26F4F27E02B2D00574900 /* weak_self_problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC26F4E27E02B2D00574900 /* weak_self_problem.swift */; };
@@ -36,6 +37,7 @@
 		2E45CE9327BB8E890002F847 /* KeyPathExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathExpression.swift; sourceTree = "<group>"; };
 		2E612F1927F3368F00088E42 /* Automatic Initalizer Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Automatic Initalizer Inheritance.swift"; sourceTree = "<group>"; };
 		2E612F1C27F336BF00088E42 /* Intializer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Intializer.md; sourceTree = "<group>"; };
+		2E612F1D27F346E400088E42 /* Failable Initializer with Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Failable Initializer with Enumerations.swift"; sourceTree = "<group>"; };
 		2E67BBF327F136E5008D914C /* ControlStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlStatement.swift; sourceTree = "<group>"; };
 		2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		2EC26F4E27E02B2D00574900 /* weak_self_problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weak_self_problem.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				2E612F1927F3368F00088E42 /* Automatic Initalizer Inheritance.swift */,
 				2E612F1C27F336BF00088E42 /* Intializer.md */,
+				2E612F1D27F346E400088E42 /* Failable Initializer with Enumerations.swift */,
 			);
 			path = Intializer;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */,
 				2E67BBF427F136E5008D914C /* ControlStatement.swift in Sources */,
 				2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */,
+				2E612F1E27F346E400088E42 /* Failable Initializer with Enumerations.swift in Sources */,
 				2EB7FE0E27E8AE7F009F2E20 /* Operator.swift in Sources */,
 				2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */,
 				2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */,

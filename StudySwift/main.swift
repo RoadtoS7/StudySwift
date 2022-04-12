@@ -7,6 +7,5 @@
 
 import Foundation
 
-let instance = Fallthrough()
-instance.testFallthrough()
+TemperatureUnit.test()
 
