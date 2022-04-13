@@ -19,6 +19,10 @@ extension LinkHandler {
 }
 
 class LinkHandlerTest: LinkHandler {
+    func canHandle(url: String) -> Bool {
+        return false
+    }
+    
     func handle(url: String) {
         print("handle: Url \(url)")
     }
