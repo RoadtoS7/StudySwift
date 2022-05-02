@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0BE9C6281FF6F00002DD61 /* ProtocolComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C5281FF6F00002DD61 /* ProtocolComposition.swift */; };
+		2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */; };
+		2E0BE9CA282007000002DD61 /* OptionalRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */; };
+		2E0BE9CC282009A70002DD61 /* ProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */; };
+		2E25F99F281EA1CE00DC8F43 /* MutatingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F99E281EA1CE00DC8F43 /* MutatingFunction.swift */; };
+		2E25F9A1281EA4F700DC8F43 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A0281EA4F700DC8F43 /* Initializer.swift */; };
+		2E25F9A3281EB18E00DC8F43 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */; };
+		2E44C2A32805C81C00001E12 /* Assigning Constant Properties During Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44C2A22805C81C00001E12 /* Assigning Constant Properties During Initialization.swift */; };
 		2E45CE8D27BB8E6B0002F847 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE8C27BB8E6B0002F847 /* main.swift */; };
 		2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE9327BB8E890002F847 /* KeyPathExpression.swift */; };
 		2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E612F1927F3368F00088E42 /* Automatic Initalizer Inheritance.swift */; };
-		2E612F1E27F346E400088E42 /* Failable Initializer with Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E612F1D27F346E400088E42 /* Failable Initializer with Enumerations.swift */; };
+		2E612F1E27F346E400088E42 /* Failable Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E612F1D27F346E400088E42 /* Failable Initializer.swift */; };
+		2E612F2027F3549E00088E42 /* Required Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E612F1F27F3549E00088E42 /* Required Initializer.swift */; };
+		2E612F2227F3556000088E42 /* Default Value with Closure or Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E612F2127F3556000088E42 /* Default Value with Closure or Function.swift */; };
 		2E67BBF427F136E5008D914C /* ControlStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E67BBF327F136E5008D914C /* ControlStatement.swift */; };
 		2EB7FE0E27E8AE7F009F2E20 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */; };
+		2EB8955528064EDE00F96D4D /* Extension Protocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8955428064EDE00F96D4D /* Extension Protocol .swift */; };
+		2EB89558280653B700F96D4D /* Self.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB89557280653B700F96D4D /* Self.swift */; };
+		2EBB20632813E87800A8C51D /* FlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20622813E87800A8C51D /* FlatMap.swift */; };
+		2EBB20652813F29400A8C51D /* Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20642813F29400A8C51D /* Published.swift */; };
 		2EC26F4F27E02B2D00574900 /* weak_self_problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC26F4E27E02B2D00574900 /* weak_self_problem.swift */; };
 		2EC26F5127E02D5800574900 /* weak_self_solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC26F5027E02D5800574900 /* weak_self_solution.swift */; };
 		2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46427D488E2004B4B7D /* ARC.swift */; };
@@ -32,14 +46,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E0BE9C5281FF6F00002DD61 /* ProtocolComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolComposition.swift; sourceTree = "<group>"; };
+		2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingProtocolComformance.swift; sourceTree = "<group>"; };
+		2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalRequirement.swift; sourceTree = "<group>"; };
+		2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtension.swift; sourceTree = "<group>"; };
+		2E25F99E281EA1CE00DC8F43 /* MutatingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutatingFunction.swift; sourceTree = "<group>"; };
+		2E25F9A0281EA4F700DC8F43 /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
+		2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
+		2E44C2A22805C81C00001E12 /* Assigning Constant Properties During Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assigning Constant Properties During Initialization.swift"; sourceTree = "<group>"; };
 		2E45CE8927BB8E6B0002F847 /* StudySwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudySwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E45CE8C27BB8E6B0002F847 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2E45CE9327BB8E890002F847 /* KeyPathExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathExpression.swift; sourceTree = "<group>"; };
 		2E612F1927F3368F00088E42 /* Automatic Initalizer Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Automatic Initalizer Inheritance.swift"; sourceTree = "<group>"; };
 		2E612F1C27F336BF00088E42 /* Intializer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Intializer.md; sourceTree = "<group>"; };
-		2E612F1D27F346E400088E42 /* Failable Initializer with Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Failable Initializer with Enumerations.swift"; sourceTree = "<group>"; };
+		2E612F1D27F346E400088E42 /* Failable Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Failable Initializer.swift"; sourceTree = "<group>"; };
+		2E612F1F27F3549E00088E42 /* Required Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Required Initializer.swift"; sourceTree = "<group>"; };
+		2E612F2127F3556000088E42 /* Default Value with Closure or Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Default Value with Closure or Function.swift"; sourceTree = "<group>"; };
 		2E67BBF327F136E5008D914C /* ControlStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlStatement.swift; sourceTree = "<group>"; };
 		2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		2EB8955428064EDE00F96D4D /* Extension Protocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Protocol .swift"; sourceTree = "<group>"; };
+		2EB89557280653B700F96D4D /* Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self.swift; sourceTree = "<group>"; };
+		2EBB20622813E87800A8C51D /* FlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMap.swift; sourceTree = "<group>"; };
+		2EBB20642813F29400A8C51D /* Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published.swift; sourceTree = "<group>"; };
 		2EC26F4E27E02B2D00574900 /* weak_self_problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weak_self_problem.swift; sourceTree = "<group>"; };
 		2EC26F5027E02D5800574900 /* weak_self_solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weak_self_solution.swift; sourceTree = "<group>"; };
 		2ED9F46427D488E2004B4B7D /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
@@ -57,6 +85,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E25F99D281EA1C200DC8F43 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2E25F99E281EA1CE00DC8F43 /* MutatingFunction.swift */,
+				2E25F9A0281EA4F700DC8F43 /* Initializer.swift */,
+				2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */,
+				2E0BE9C5281FF6F00002DD61 /* ProtocolComposition.swift */,
+				2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */,
+				2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */,
+				2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		2E45CE8027BB8E6B0002F847 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +118,10 @@
 		2E45CE8B27BB8E6B0002F847 /* StudySwift */ = {
 			isa = PBXGroup;
 			children = (
+				2E25F99D281EA1C200DC8F43 /* Protocol */,
+				2EBB20612813E86B00A8C51D /* Combine */,
+				2EB89556280653A600F96D4D /* MetaType */,
+				2EB8955328064ECC00F96D4D /* Extension */,
 				2E612F1B27F336A900088E42 /* Intializer */,
 				2E45CE8C27BB8E6B0002F847 /* main.swift */,
 				2E45CE9327BB8E890002F847 /* KeyPathExpression.swift */,
@@ -85,6 +131,7 @@
 				2EC26F5027E02D5800574900 /* weak_self_solution.swift */,
 				2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */,
 				2E67BBF327F136E5008D914C /* ControlStatement.swift */,
+				2EB89557280653B700F96D4D /* Self.swift */,
 			);
 			path = StudySwift;
 			sourceTree = "<group>";
@@ -94,9 +141,36 @@
 			children = (
 				2E612F1927F3368F00088E42 /* Automatic Initalizer Inheritance.swift */,
 				2E612F1C27F336BF00088E42 /* Intializer.md */,
-				2E612F1D27F346E400088E42 /* Failable Initializer with Enumerations.swift */,
+				2E612F1D27F346E400088E42 /* Failable Initializer.swift */,
+				2E612F1F27F3549E00088E42 /* Required Initializer.swift */,
+				2E612F2127F3556000088E42 /* Default Value with Closure or Function.swift */,
+				2E44C2A22805C81C00001E12 /* Assigning Constant Properties During Initialization.swift */,
 			);
 			path = Intializer;
+			sourceTree = "<group>";
+		};
+		2EB8955328064ECC00F96D4D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2EB8955428064EDE00F96D4D /* Extension Protocol .swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2EB89556280653A600F96D4D /* MetaType */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MetaType;
+			sourceTree = "<group>";
+		};
+		2EBB20612813E86B00A8C51D /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				2EBB20622813E87800A8C51D /* FlatMap.swift */,
+				2EBB20642813F29400A8C51D /* Published.swift */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,13 +232,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EC26F5127E02D5800574900 /* weak_self_solution.swift in Sources */,
+				2E0BE9CC282009A70002DD61 /* ProtocolExtension.swift in Sources */,
 				2EC26F4F27E02B2D00574900 /* weak_self_problem.swift in Sources */,
 				2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */,
+				2EBB20652813F29400A8C51D /* Published.swift in Sources */,
+				2E44C2A32805C81C00001E12 /* Assigning Constant Properties During Initialization.swift in Sources */,
 				2E67BBF427F136E5008D914C /* ControlStatement.swift in Sources */,
+				2EB8955528064EDE00F96D4D /* Extension Protocol .swift in Sources */,
+				2E612F2027F3549E00088E42 /* Required Initializer.swift in Sources */,
+				2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */,
+				2E25F99F281EA1CE00DC8F43 /* MutatingFunction.swift in Sources */,
+				2E0BE9CA282007000002DD61 /* OptionalRequirement.swift in Sources */,
+				2EB89558280653B700F96D4D /* Self.swift in Sources */,
 				2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */,
-				2E612F1E27F346E400088E42 /* Failable Initializer with Enumerations.swift in Sources */,
+				2E612F1E27F346E400088E42 /* Failable Initializer.swift in Sources */,
 				2EB7FE0E27E8AE7F009F2E20 /* Operator.swift in Sources */,
+				2E25F9A3281EB18E00DC8F43 /* DelegatePattern.swift in Sources */,
 				2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */,
+				2E612F2227F3556000088E42 /* Default Value with Closure or Function.swift in Sources */,
+				2E25F9A1281EA4F700DC8F43 /* Initializer.swift in Sources */,
+				2EBB20632813E87800A8C51D /* FlatMap.swift in Sources */,
+				2E0BE9C6281FF6F00002DD61 /* ProtocolComposition.swift in Sources */,
 				2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */,
 				2E45CE8D27BB8E6B0002F847 /* main.swift in Sources */,
 			);
