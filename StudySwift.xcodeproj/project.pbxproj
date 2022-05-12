@@ -11,6 +11,7 @@
 		2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */; };
 		2E0BE9CA282007000002DD61 /* OptionalRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */; };
 		2E0BE9CC282009A70002DD61 /* ProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */; };
+		2E1A2CED282D383100A5D603 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A2CEC282D383100A5D603 /* Reduce.swift */; };
 		2E25F99F281EA1CE00DC8F43 /* MutatingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F99E281EA1CE00DC8F43 /* MutatingFunction.swift */; };
 		2E25F9A1281EA4F700DC8F43 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A0281EA4F700DC8F43 /* Initializer.swift */; };
 		2E25F9A3281EB18E00DC8F43 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */; };
@@ -31,6 +32,8 @@
 		2EC26F5127E02D5800574900 /* weak_self_solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC26F5027E02D5800574900 /* weak_self_solution.swift */; };
 		2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46427D488E2004B4B7D /* ARC.swift */; };
 		2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46627D98A6A004B4B7D /* Integer.swift */; };
+		2EE93E36282149BC00BEEB5A /* MoreGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE93E35282149BC00BEEB5A /* MoreGeneric.swift */; };
+		2EE93E3828214BEE00BEEB5A /* ProtocolComparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE93E3728214BEE00BEEB5A /* ProtocolComparable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +53,7 @@
 		2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingProtocolComformance.swift; sourceTree = "<group>"; };
 		2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalRequirement.swift; sourceTree = "<group>"; };
 		2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtension.swift; sourceTree = "<group>"; };
+		2E1A2CEC282D383100A5D603 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
 		2E25F99E281EA1CE00DC8F43 /* MutatingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutatingFunction.swift; sourceTree = "<group>"; };
 		2E25F9A0281EA4F700DC8F43 /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
 		2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 		2EC26F5027E02D5800574900 /* weak_self_solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weak_self_solution.swift; sourceTree = "<group>"; };
 		2ED9F46427D488E2004B4B7D /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
 		2ED9F46627D98A6A004B4B7D /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
+		2EE93E35282149BC00BEEB5A /* MoreGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreGeneric.swift; sourceTree = "<group>"; };
+		2EE93E3728214BEE00BEEB5A /* ProtocolComparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolComparable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1A2CEB282D381E00A5D603 /* HigherFunction */ = {
+			isa = PBXGroup;
+			children = (
+				2E1A2CEC282D383100A5D603 /* Reduce.swift */,
+			);
+			path = HigherFunction;
+			sourceTree = "<group>";
+		};
 		2E25F99D281EA1C200DC8F43 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +109,8 @@
 				2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */,
 				2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */,
 				2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */,
+				2EE93E35282149BC00BEEB5A /* MoreGeneric.swift */,
+				2EE93E3728214BEE00BEEB5A /* ProtocolComparable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -118,6 +134,7 @@
 		2E45CE8B27BB8E6B0002F847 /* StudySwift */ = {
 			isa = PBXGroup;
 			children = (
+				2E1A2CEB282D381E00A5D603 /* HigherFunction */,
 				2E25F99D281EA1C200DC8F43 /* Protocol */,
 				2EBB20612813E86B00A8C51D /* Combine */,
 				2EB89556280653A600F96D4D /* MetaType */,
@@ -234,11 +251,13 @@
 				2EC26F5127E02D5800574900 /* weak_self_solution.swift in Sources */,
 				2E0BE9CC282009A70002DD61 /* ProtocolExtension.swift in Sources */,
 				2EC26F4F27E02B2D00574900 /* weak_self_problem.swift in Sources */,
+				2EE93E36282149BC00BEEB5A /* MoreGeneric.swift in Sources */,
 				2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */,
 				2EBB20652813F29400A8C51D /* Published.swift in Sources */,
 				2E44C2A32805C81C00001E12 /* Assigning Constant Properties During Initialization.swift in Sources */,
 				2E67BBF427F136E5008D914C /* ControlStatement.swift in Sources */,
 				2EB8955528064EDE00F96D4D /* Extension Protocol .swift in Sources */,
+				2EE93E3828214BEE00BEEB5A /* ProtocolComparable.swift in Sources */,
 				2E612F2027F3549E00088E42 /* Required Initializer.swift in Sources */,
 				2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */,
 				2E25F99F281EA1CE00DC8F43 /* MutatingFunction.swift in Sources */,
@@ -251,6 +270,7 @@
 				2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */,
 				2E612F2227F3556000088E42 /* Default Value with Closure or Function.swift in Sources */,
 				2E25F9A1281EA4F700DC8F43 /* Initializer.swift in Sources */,
+				2E1A2CED282D383100A5D603 /* Reduce.swift in Sources */,
 				2EBB20632813E87800A8C51D /* FlatMap.swift in Sources */,
 				2E0BE9C6281FF6F00002DD61 /* ProtocolComposition.swift in Sources */,
 				2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */,
