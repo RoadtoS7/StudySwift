@@ -6,3 +6,21 @@
 //
 
 import Foundation
+
+class RequiredSomeClass {
+    required init() {
+        print("required init in SomeClass")
+    }
+    
+    init(value: String) {
+        print(value)
+    }
+}
+
+class SomeSubClass: RequiredSomeClass {
+    var subValue: String
+    required init() {
+        self.subValue = "subValue"
+        super.init()
+    }
+}

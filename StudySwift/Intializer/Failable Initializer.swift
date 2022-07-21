@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+ with Enumerations
+ */
 enum TemperatureUnit {
     case kelvin, celsius, fahrenheit
     
@@ -30,6 +33,25 @@ enum TemperatureUnit {
         }
         
         let unknownUnit = TemperatureUnit(symbol: "X")
+        if unknownUnit == nil {
+            print("initialization fail")
+        }
+    }
+}
+
+/**
+ for Enumerations with Raw Values
+ */
+enum TemperatureUnitWithRawValues: Character {
+    case kelvin = "K", celsius = "C", fahrenheit = "F"
+    
+    static func test() {
+        let fahrenheitUnit = TemperatureUnitWithRawValues(rawValue: "F")
+        if fahrenheitUnit != nil {
+            print("initialization succeed")
+        }
+        
+        let unknownUnit = TemperatureUnitWithRawValues(rawValue: "X")
         if unknownUnit == nil {
             print("initialization fail")
         }

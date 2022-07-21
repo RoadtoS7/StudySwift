@@ -113,11 +113,8 @@ class PublisherAssociatedApplication {
                 print("viewModel.name: \(value)")
             }.store(in: &cancellables)
         
-        viewModel.presentAlert.sink { <#Subscribers.Completion<Error>#> in
-            <#code#>
-        } receiveValue: { <#Void#> in
-            <#code#>
-        }
+        viewModel.presentAlert.sink { _ in
+        } receiveValue: { _ in }
 
     }
     

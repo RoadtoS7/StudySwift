@@ -7,5 +7,5 @@
 
 import Foundation
 
-TemperatureUnit.test()
 
+UrlComponentesTest.test_host가_어디까지인가()
