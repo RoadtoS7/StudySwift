@@ -8,4 +8,4 @@
 import Foundation
 
 
-UrlComponentesTest.test_host가_어디까지인가()
+testArrayIndeces()
