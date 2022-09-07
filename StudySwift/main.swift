@@ -8,4 +8,4 @@
 import Foundation
 
 
-testArrayIndeces()
+test_dict_values()
