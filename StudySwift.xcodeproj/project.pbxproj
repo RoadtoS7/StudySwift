@@ -21,6 +21,7 @@
 		2E15D08128BCFABF00A03983 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15D08028BCFABF00A03983 /* Array.swift */; };
 		2E15D08328BD023A00A03983 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15D08228BD023A00A03983 /* Set.swift */; };
 		2E15D08528BD093900A03983 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15D08428BD093900A03983 /* Dictionary.swift */; };
+		2E17A62B293A39BB00E7552D /* magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17A62A293A39BB00E7552D /* magic.swift */; };
 		2E1A2CED282D383100A5D603 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A2CEC282D383100A5D603 /* Reduce.swift */; };
 		2E1A2CEF282D3BB900A5D603 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A2CEE282D3BB900A5D603 /* Practice.swift */; };
 		2E1A2CF1282D3D1800A5D603 /* SwiftyCode_UseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A2CF0282D3D1800A5D603 /* SwiftyCode_UseExtension.swift */; };
@@ -28,6 +29,7 @@
 		2E25F99F281EA1CE00DC8F43 /* MutatingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F99E281EA1CE00DC8F43 /* MutatingFunction.swift */; };
 		2E25F9A1281EA4F700DC8F43 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A0281EA4F700DC8F43 /* Initializer.swift */; };
 		2E25F9A3281EB18E00DC8F43 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */; };
+		2E2C520E28C8B2F700239EBB /* UtilityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C520D28C8B2F700239EBB /* UtilityExtension.swift */; };
 		2E44C2A32805C81C00001E12 /* Assigning Constant Properties During Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44C2A22805C81C00001E12 /* Assigning Constant Properties During Initialization.swift */; };
 		2E45CE8D27BB8E6B0002F847 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE8C27BB8E6B0002F847 /* main.swift */; };
 		2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE9327BB8E890002F847 /* KeyPathExpression.swift */; };
@@ -80,6 +82,7 @@
 		2E15D08028BCFABF00A03983 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		2E15D08228BD023A00A03983 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		2E15D08428BD093900A03983 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		2E17A62A293A39BB00E7552D /* magic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magic.swift; sourceTree = "<group>"; };
 		2E1A2CEC282D383100A5D603 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
 		2E1A2CEE282D3BB900A5D603 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 		2E1A2CF0282D3D1800A5D603 /* SwiftyCode_UseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCode_UseExtension.swift; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 		2E25F99E281EA1CE00DC8F43 /* MutatingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutatingFunction.swift; sourceTree = "<group>"; };
 		2E25F9A0281EA4F700DC8F43 /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
 		2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
+		2E2C520D28C8B2F700239EBB /* UtilityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtension.swift; sourceTree = "<group>"; };
 		2E44C2A22805C81C00001E12 /* Assigning Constant Properties During Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assigning Constant Properties During Initialization.swift"; sourceTree = "<group>"; };
 		2E45CE8927BB8E6B0002F847 /* StudySwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudySwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E45CE8C27BB8E6B0002F847 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -167,6 +171,22 @@
 			path = CollectionTypes;
 			sourceTree = "<group>";
 		};
+		2E17A628293A398200E7552D /* ExpertSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2E17A629293A399B00E7552D /* S1_CoreConcpets */,
+			);
+			path = ExpertSwift;
+			sourceTree = "<group>";
+		};
+		2E17A629293A399B00E7552D /* S1_CoreConcpets */ = {
+			isa = PBXGroup;
+			children = (
+				2E17A62A293A39BB00E7552D /* magic.swift */,
+			);
+			path = S1_CoreConcpets;
+			sourceTree = "<group>";
+		};
 		2E1A2CEB282D381E00A5D603 /* HigherFunction */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +221,13 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		2E2C520C28C89D8000239EBB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		2E45CE8027BB8E6B0002F847 = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +249,8 @@
 		2E45CE8B27BB8E6B0002F847 /* StudySwift */ = {
 			isa = PBXGroup;
 			children = (
+				2E17A628293A398200E7552D /* ExpertSwift */,
+				2E2C520C28C89D8000239EBB /* New Group */,
 				2E15D07F28BCFAB500A03983 /* CollectionTypes */,
 				2E15D07A28BCF9BD00A03983 /* Regex */,
 				2E15D07728BCF9A600A03983 /* ObjectiveC */,
@@ -293,6 +322,7 @@
 			children = (
 				2EB8955428064EDE00F96D4D /* Extension Protocol .swift */,
 				2E1A2CF0282D3D1800A5D603 /* SwiftyCode_UseExtension.swift */,
+				2E2C520D28C8B2F700239EBB /* UtilityExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -420,6 +450,7 @@
 				2E612F2027F3549E00088E42 /* Required Initializer.swift in Sources */,
 				2E15D07628BCF98F00A03983 /* ActorWithExtension.swift in Sources */,
 				2E1A2CF4282D3D6B00A5D603 /* SwiftyCode_UseCustomProperty.swift in Sources */,
+				2E2C520E28C8B2F700239EBB /* UtilityExtension.swift in Sources */,
 				2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */,
 				2E25F99F281EA1CE00DC8F43 /* MutatingFunction.swift in Sources */,
 				2E0BE9CA282007000002DD61 /* OptionalRequirement.swift in Sources */,
@@ -433,6 +464,7 @@
 				2E25F9A3281EB18E00DC8F43 /* DelegatePattern.swift in Sources */,
 				2E15D07C28BCF9BD00A03983 /* UrlRegex.swift in Sources */,
 				2E4E55422848A2F3001B5554 /* StringAddingPercentEncoding.swift in Sources */,
+				2E17A62B293A39BB00E7552D /* magic.swift in Sources */,
 				2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */,
 				2E612F2227F3556000088E42 /* Default Value with Closure or Function.swift in Sources */,
 				2E15D07328BCF95F00A03983 /* Extension.swift in Sources */,

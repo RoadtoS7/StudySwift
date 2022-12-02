@@ -46,3 +46,38 @@ func testArrayIndeces() {
     // ["Eggs", "Milk", "Bananas", "Apples"]
     shoppingList.indices.forEach { print($0)}
 }
+
+/// toss 기출
+struct TossArrayWithMemory {
+    func testLargeArray() {
+        var numbers = Array(repeating: 0, count: 1_000_000)
+        var newNumbers = numbers
+        
+        let format = "%p"
+        let numberString = String(format: format, numbers)
+        let newnumberString = String(format: format, newNumbers)
+        
+        printAddress(fo: numbers)
+        printAddress(fo: newNumbers)
+        // %p를 이용해서 출력할 때랑, unsafe pointer를 사용할 때랑 다른 점이 무엇?
+        
+        // 0x10119fbf0
+        // 0x10119fee0
+        
+    }
+    
+    // 큰 배열을 넘기면, 배열의 값을 복사하는데 큰 비용이 든다
+    private func foo(_ numbers: [Int]) -> Int {
+        numbers.count
+    }
+    
+    func testSolarSystem() {
+        let planets: Set = ["Sun", "Earth", "Venus"]
+        var solarSystem = planets
+        solarSystem.insert("sun")
+        
+        printAddress(fo: planets)
+        printAddress(fo: solarSystem)
+    }
+    
+}

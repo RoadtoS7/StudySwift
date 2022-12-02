@@ -7,5 +7,5 @@
 
 import Foundation
 
-
-test_dict_values()
+magicTest()
+print(number)
