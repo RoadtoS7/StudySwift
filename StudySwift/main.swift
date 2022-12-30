@@ -8,4 +8,4 @@
 import Foundation
 
 
-MetaTypeStudy.dynamicMetatype()
+MetaTypeStudy.metatypeOfAnyObject()

@@ -19,6 +19,13 @@ class MetaTypeStudy {
     static func dynamicMetatype() {
         let number: Any = 1
         let numberType = type(of: number)
-        print("numberType: \(numberType)")
+        print("numberType: \(numberType)") // Int
+    }
+    
+    /// static metaType: .self
+    /// 컴파일 타입에 결정
+    static func staticMetatype() {
+        let staticType: Medium.Type = Medium.self
+        print("staticType: \(staticType)") // Medium
     }
 }
