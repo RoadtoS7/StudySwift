@@ -28,7 +28,8 @@
 		2E1A2CF1282D3D1800A5D603 /* SwiftyCode_UseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A2CF0282D3D1800A5D603 /* SwiftyCode_UseExtension.swift */; };
 		2E1A2CF4282D3D6B00A5D603 /* SwiftyCode_UseCustomProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A2CF3282D3D6B00A5D603 /* SwiftyCode_UseCustomProperty.swift */; };
 		2E1E9AA42945C93E00E001BE /* file_referncecount개념과_강한참조개념.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E9AA32945C93E00E001BE /* file_referncecount개념과_강한참조개념.swift */; };
-		2E1E9AA62945CC0300E001BE /* StrongReferenceCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E9AA52945CC0300E001BE /* StrongReferenceCycle.swift */; };
+		2E1E9AA62945CC0300E001BE /* 2_StrongReferenceCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E9AA52945CC0300E001BE /* 2_StrongReferenceCycle.swift */; };
+		2E1E9AA82945CE8900E001BE /* 3_WeakReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E9AA72945CE8900E001BE /* 3_WeakReference.swift */; };
 		2E25F99F281EA1CE00DC8F43 /* MutatingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F99E281EA1CE00DC8F43 /* MutatingFunction.swift */; };
 		2E25F9A1281EA4F700DC8F43 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A0281EA4F700DC8F43 /* Initializer.swift */; };
 		2E25F9A3281EB18E00DC8F43 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */; };
@@ -92,7 +93,8 @@
 		2E1A2CF0282D3D1800A5D603 /* SwiftyCode_UseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCode_UseExtension.swift; sourceTree = "<group>"; };
 		2E1A2CF3282D3D6B00A5D603 /* SwiftyCode_UseCustomProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCode_UseCustomProperty.swift; sourceTree = "<group>"; };
 		2E1E9AA32945C93E00E001BE /* file_referncecount개념과_강한참조개념.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "file_referncecount개념과_강한참조개념.swift"; sourceTree = "<group>"; };
-		2E1E9AA52945CC0300E001BE /* StrongReferenceCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongReferenceCycle.swift; sourceTree = "<group>"; };
+		2E1E9AA52945CC0300E001BE /* 2_StrongReferenceCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_StrongReferenceCycle.swift; sourceTree = "<group>"; };
+		2E1E9AA72945CE8900E001BE /* 3_WeakReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_WeakReference.swift; sourceTree = "<group>"; };
 		2E25F99E281EA1CE00DC8F43 /* MutatingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutatingFunction.swift; sourceTree = "<group>"; };
 		2E25F9A0281EA4F700DC8F43 /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
 		2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
@@ -223,7 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				2E1E9AA32945C93E00E001BE /* file_referncecount개념과_강한참조개념.swift */,
-				2E1E9AA52945CC0300E001BE /* StrongReferenceCycle.swift */,
+				2E1E9AA52945CC0300E001BE /* 2_StrongReferenceCycle.swift */,
+				2E1E9AA72945CE8900E001BE /* 3_WeakReference.swift */,
 			);
 			path = 27_ARC;
 			sourceTree = "<group>";
@@ -486,7 +489,7 @@
 				2E1A2CEF282D3BB900A5D603 /* Practice.swift in Sources */,
 				2E65D9F02888E1D3003ECD3C /* UrlComponents.swift in Sources */,
 				2E612F1E27F346E400088E42 /* Failable Initializer.swift in Sources */,
-				2E1E9AA62945CC0300E001BE /* StrongReferenceCycle.swift in Sources */,
+				2E1E9AA62945CC0300E001BE /* 2_StrongReferenceCycle.swift in Sources */,
 				2EB7FE0E27E8AE7F009F2E20 /* Operator.swift in Sources */,
 				2E25F9A3281EB18E00DC8F43 /* DelegatePattern.swift in Sources */,
 				2E15D07C28BCF9BD00A03983 /* UrlRegex.swift in Sources */,
@@ -495,6 +498,7 @@
 				2E17A62B293A39BB00E7552D /* magic.swift in Sources */,
 				2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */,
 				2E612F2227F3556000088E42 /* Default Value with Closure or Function.swift in Sources */,
+				2E1E9AA82945CE8900E001BE /* 3_WeakReference.swift in Sources */,
 				2E15D07328BCF95F00A03983 /* Extension.swift in Sources */,
 				2E25F9A1281EA4F700DC8F43 /* Initializer.swift in Sources */,
 				2E1A2CED282D383100A5D603 /* Reduce.swift in Sources */,
