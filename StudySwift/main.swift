@@ -7,4 +7,5 @@
 
 import Foundation
 
-StrongReferenceCycle.test_강한참조순환문제를_수동으로_해결()
+
+MetaTypeStudy.dynamicMetatype()

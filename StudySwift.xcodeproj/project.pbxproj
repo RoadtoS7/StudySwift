@@ -45,6 +45,7 @@
 		2E65D9F02888E1D3003ECD3C /* UrlComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65D9EF2888E1D3003ECD3C /* UrlComponents.swift */; };
 		2E67BBF427F136E5008D914C /* ControlStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E67BBF327F136E5008D914C /* ControlStatement.swift */; };
 		2E9C3B7C283FB37600393DEE /* StatePatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */; };
+		2E9F8B5B295F2EC9000DA978 /* Metatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F8B5A295F2EC9000DA978 /* Metatype.swift */; };
 		2EAB303B2833C3D600B80DB0 /* what problem opaquetype does solve .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB303A2833C3D600B80DB0 /* what problem opaquetype does solve .swift */; };
 		2EB7FE0E27E8AE7F009F2E20 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */; };
 		2EB8955528064EDE00F96D4D /* Extension Protocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8955428064EDE00F96D4D /* Extension Protocol .swift */; };
@@ -113,6 +114,7 @@
 		2E67BBF327F136E5008D914C /* ControlStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlStatement.swift; sourceTree = "<group>"; };
 		2E9C3B79283FB37600393DEE /* StudySwiftTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySwiftTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePatternTest.swift; sourceTree = "<group>"; };
+		2E9F8B5A295F2EC9000DA978 /* Metatype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metatype.swift; sourceTree = "<group>"; };
 		2EAB303A2833C3D600B80DB0 /* what problem opaquetype does solve .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "what problem opaquetype does solve .swift"; sourceTree = "<group>"; };
 		2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		2EB8955428064EDE00F96D4D /* Extension Protocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Protocol .swift"; sourceTree = "<group>"; };
@@ -358,6 +360,7 @@
 		2EB89556280653A600F96D4D /* MetaType */ = {
 			isa = PBXGroup;
 			children = (
+				2E9F8B5A295F2EC9000DA978 /* Metatype.swift */,
 			);
 			path = MetaType;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				2EE93E36282149BC00BEEB5A /* MoreGeneric.swift in Sources */,
 				2E1A2CF1282D3D1800A5D603 /* SwiftyCode_UseExtension.swift in Sources */,
 				2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */,
+				2E9F8B5B295F2EC9000DA978 /* Metatype.swift in Sources */,
 				2EBB20652813F29400A8C51D /* Published.swift in Sources */,
 				2E17A62D293A4CC200E7552D /* DeferringExecution.swift in Sources */,
 				2E44C2A32805C81C00001E12 /* Assigning Constant Properties During Initialization.swift in Sources */,
