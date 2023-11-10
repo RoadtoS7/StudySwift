@@ -7,5 +7,6 @@
 
 import Foundation
 
+test_StandAlone_Macro()
 
 

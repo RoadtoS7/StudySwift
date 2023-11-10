@@ -40,6 +40,7 @@ class MetaTypeStudy {
     static func protocolMetattype() {
 //        let nonProtocolMetatype: Devicable.Type = Devicable.self // 컴파일 에러
         let metatype: Devicable.Type = MyDevice.self
+        
         let protocolMetatype: Devicable.Protocol = Devicable.self
         let anyType: Any.Type = Any.self
     }
