@@ -29,10 +29,6 @@ fileprivate class ThreeDimensionShape: Shape {
         width = 2
     }
     
-    convenience init() {
-        depth = 3
-        width = 3
-        self.init(depth: 0)
-    }
+//    init() {
 }
 

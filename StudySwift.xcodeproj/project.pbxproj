@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0937AE2B16DB730076EC3B /* TestWeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0937AD2B16DB730076EC3B /* TestWeak.swift */; };
 		2E0BE9C6281FF6F00002DD61 /* ProtocolComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C5281FF6F00002DD61 /* ProtocolComposition.swift */; };
 		2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */; };
 		2E0BE9CA282007000002DD61 /* OptionalRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */; };
@@ -51,6 +52,7 @@
 		2E75006A296EAE030016BFEC /* WordRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E750069296EAE030016BFEC /* WordRegex.swift */; };
 		2E8B58B329BF26E500310E63 /* associatedType+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B58B229BF26E500310E63 /* associatedType+Protocol.swift */; };
 		2E8EB18F2AFDD2F500FA3BDA /* Two-Step Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */; };
+		2E93CBF32B05AA0000BA9F54 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E93CBF22B05AA0000BA9F54 /* Throttle.swift */; };
 		2E9C3B7C283FB37600393DEE /* StatePatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */; };
 		2E9F8B5B295F2EC9000DA978 /* Metatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F8B5A295F2EC9000DA978 /* Metatype.swift */; };
 		2EAB303B2833C3D600B80DB0 /* what problem opaquetype does solve .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB303A2833C3D600B80DB0 /* what problem opaquetype does solve .swift */; };
@@ -81,6 +83,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E0937AD2B16DB730076EC3B /* TestWeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWeak.swift; sourceTree = "<group>"; };
 		2E0BE9C5281FF6F00002DD61 /* ProtocolComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolComposition.swift; sourceTree = "<group>"; };
 		2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingProtocolComformance.swift; sourceTree = "<group>"; };
 		2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalRequirement.swift; sourceTree = "<group>"; };
@@ -127,6 +130,7 @@
 		2E750069296EAE030016BFEC /* WordRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRegex.swift; sourceTree = "<group>"; };
 		2E8B58B229BF26E500310E63 /* associatedType+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "associatedType+Protocol.swift"; sourceTree = "<group>"; };
 		2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two-Step Initialization.swift"; sourceTree = "<group>"; };
+		2E93CBF22B05AA0000BA9F54 /* Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
 		2E9C3B79283FB37600393DEE /* StudySwiftTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySwiftTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePatternTest.swift; sourceTree = "<group>"; };
 		2E9F8B5A295F2EC9000DA978 /* Metatype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metatype.swift; sourceTree = "<group>"; };
@@ -163,6 +167,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0937AC2B16DB660076EC3B /* AutoReferenceCycle */ = {
+			isa = PBXGroup;
+			children = (
+				2E0937AD2B16DB730076EC3B /* TestWeak.swift */,
+			);
+			path = AutoReferenceCycle;
+			sourceTree = "<group>";
+		};
 		2E15D07428BCF98F00A03983 /* Actor */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,13 +288,6 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
-		2E2C520C28C89D8000239EBB /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		2E45CE8027BB8E6B0002F847 = {
 			isa = PBXGroup;
 			children = (
@@ -304,12 +309,12 @@
 		2E45CE8B27BB8E6B0002F847 /* StudySwift */ = {
 			isa = PBXGroup;
 			children = (
+				2E0937AC2B16DB660076EC3B /* AutoReferenceCycle */,
 				2E167DDB2ACE73660002B921 /* Macro */,
 				2EDC959D2A95F32D00E72F2D /* StringInterpolation */,
 				2E60B06D2A7C81B200680EBC /* GCD */,
 				2E17A62E293B89B300E7552D /* Book_SwiftProgramming */,
 				2E17A628293A398200E7552D /* ExpertSwift */,
-				2E2C520C28C89D8000239EBB /* New Group */,
 				2E15D07F28BCFAB500A03983 /* CollectionTypes */,
 				2E15D07A28BCF9BD00A03983 /* Regex */,
 				2E15D07728BCF9A600A03983 /* ObjectiveC */,
@@ -411,6 +416,7 @@
 				2EBB20622813E87800A8C51D /* FlatMap.swift */,
 				2EBB20642813F29400A8C51D /* Published.swift */,
 				2E253B6729D26A4700D1503E /* CurrentValue+didSet.swift */,
+				2E93CBF22B05AA0000BA9F54 /* Throttle.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -515,6 +521,7 @@
 				2E15D07928BCF9A600A03983 /* associatedobject.swift in Sources */,
 				2E8EB18F2AFDD2F500FA3BDA /* Two-Step Initialization.swift in Sources */,
 				2EC26F5127E02D5800574900 /* weak_self_solution.swift in Sources */,
+				2E93CBF32B05AA0000BA9F54 /* Throttle.swift in Sources */,
 				2E0BE9CC282009A70002DD61 /* ProtocolExtension.swift in Sources */,
 				2EC26F4F27E02B2D00574900 /* weak_self_problem.swift in Sources */,
 				2EE93E36282149BC00BEEB5A /* MoreGeneric.swift in Sources */,
@@ -552,6 +559,7 @@
 				2E15D07C28BCF9BD00A03983 /* UrlRegex.swift in Sources */,
 				2E4E55422848A2F3001B5554 /* StringAddingPercentEncoding.swift in Sources */,
 				2E1E9AA42945C93E00E001BE /* file_referncecount개념과_강한참조개념.swift in Sources */,
+				2E0937AE2B16DB730076EC3B /* TestWeak.swift in Sources */,
 				2E17A62B293A39BB00E7552D /* magic.swift in Sources */,
 				2E60B06F2A7C82CC00680EBC /* AsycnSyncSerialConcurrent.swift in Sources */,
 				2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */,
