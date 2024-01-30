@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2E0937AE2B16DB730076EC3B /* TestWeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0937AD2B16DB730076EC3B /* TestWeak.swift */; };
+		2E0937B02B170B740076EC3B /* FlatMapInHigherFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0937AF2B170B740076EC3B /* FlatMapInHigherFunction.swift */; };
 		2E0BE9C6281FF6F00002DD61 /* ProtocolComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C5281FF6F00002DD61 /* ProtocolComposition.swift */; };
 		2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */; };
 		2E0BE9CA282007000002DD61 /* OptionalRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */; };
 		2E0BE9CC282009A70002DD61 /* ProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */; };
+		2E104CE52B4B7756005F0D26 /* CommentFailCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E104CE42B4B7756005F0D26 /* CommentFailCase.swift */; };
+		2E104CE72B4B7B56005F0D26 /* CommentSuccessCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E104CE62B4B7B56005F0D26 /* CommentSuccessCase.swift */; };
 		2E15D06328BCF8F100A03983 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15D06228BCF8F100A03983 /* Future.swift */; };
 		2E15D07128BCF91000A03983 /* unowned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15D06A28BCF91000A03983 /* unowned.swift */; };
 		2E15D07328BCF95F00A03983 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15D07228BCF95F00A03983 /* Extension.swift */; };
@@ -56,6 +59,7 @@
 		2E9C3B7C283FB37600393DEE /* StatePatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */; };
 		2E9F8B5B295F2EC9000DA978 /* Metatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F8B5A295F2EC9000DA978 /* Metatype.swift */; };
 		2EAB303B2833C3D600B80DB0 /* what problem opaquetype does solve .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB303A2833C3D600B80DB0 /* what problem opaquetype does solve .swift */; };
+		2EB2D1152B4CC744003F4CF9 /* CommentSuccessCaseBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2D1142B4CC744003F4CF9 /* CommentSuccessCaseBook.swift */; };
 		2EB7FE0E27E8AE7F009F2E20 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */; };
 		2EB8955528064EDE00F96D4D /* Extension Protocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8955428064EDE00F96D4D /* Extension Protocol .swift */; };
 		2EB89558280653B700F96D4D /* Self.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB89557280653B700F96D4D /* Self.swift */; };
@@ -84,10 +88,13 @@
 
 /* Begin PBXFileReference section */
 		2E0937AD2B16DB730076EC3B /* TestWeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWeak.swift; sourceTree = "<group>"; };
+		2E0937AF2B170B740076EC3B /* FlatMapInHigherFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapInHigherFunction.swift; sourceTree = "<group>"; };
 		2E0BE9C5281FF6F00002DD61 /* ProtocolComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolComposition.swift; sourceTree = "<group>"; };
 		2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingProtocolComformance.swift; sourceTree = "<group>"; };
 		2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalRequirement.swift; sourceTree = "<group>"; };
 		2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtension.swift; sourceTree = "<group>"; };
+		2E104CE42B4B7756005F0D26 /* CommentFailCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentFailCase.swift; sourceTree = "<group>"; };
+		2E104CE62B4B7B56005F0D26 /* CommentSuccessCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentSuccessCase.swift; sourceTree = "<group>"; };
 		2E15D06228BCF8F100A03983 /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
 		2E15D06A28BCF91000A03983 /* unowned.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = unowned.swift; sourceTree = "<group>"; };
 		2E15D07228BCF95F00A03983 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -135,6 +142,7 @@
 		2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePatternTest.swift; sourceTree = "<group>"; };
 		2E9F8B5A295F2EC9000DA978 /* Metatype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metatype.swift; sourceTree = "<group>"; };
 		2EAB303A2833C3D600B80DB0 /* what problem opaquetype does solve .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "what problem opaquetype does solve .swift"; sourceTree = "<group>"; };
+		2EB2D1142B4CC744003F4CF9 /* CommentSuccessCaseBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentSuccessCaseBook.swift; sourceTree = "<group>"; };
 		2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		2EB8955428064EDE00F96D4D /* Extension Protocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Protocol .swift"; sourceTree = "<group>"; };
 		2EB89557280653B700F96D4D /* Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self.swift; sourceTree = "<group>"; };
@@ -173,6 +181,14 @@
 				2E0937AD2B16DB730076EC3B /* TestWeak.swift */,
 			);
 			path = AutoReferenceCycle;
+			sourceTree = "<group>";
+		};
+		2E104CE32B4B7740005F0D26 /* CleanCode */ = {
+			isa = PBXGroup;
+			children = (
+				2E83F4F62B69B81100EEA80F /* Comment */,
+			);
+			path = CleanCode;
 			sourceTree = "<group>";
 		};
 		2E15D07428BCF98F00A03983 /* Actor */ = {
@@ -249,6 +265,7 @@
 			children = (
 				2E1A2CEC282D383100A5D603 /* Reduce.swift */,
 				2E1A2CEE282D3BB900A5D603 /* Practice.swift */,
+				2E0937AF2B170B740076EC3B /* FlatMapInHigherFunction.swift */,
 			);
 			path = HigherFunction;
 			sourceTree = "<group>";
@@ -309,6 +326,7 @@
 		2E45CE8B27BB8E6B0002F847 /* StudySwift */ = {
 			isa = PBXGroup;
 			children = (
+				2E104CE32B4B7740005F0D26 /* CleanCode */,
 				2E0937AC2B16DB660076EC3B /* AutoReferenceCycle */,
 				2E167DDB2ACE73660002B921 /* Macro */,
 				2EDC959D2A95F32D00E72F2D /* StringInterpolation */,
@@ -371,6 +389,16 @@
 				2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */,
 			);
 			path = Intializer;
+			sourceTree = "<group>";
+		};
+		2E83F4F62B69B81100EEA80F /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				2E104CE42B4B7756005F0D26 /* CommentFailCase.swift */,
+				2E104CE62B4B7B56005F0D26 /* CommentSuccessCase.swift */,
+				2EB2D1142B4CC744003F4CF9 /* CommentSuccessCaseBook.swift */,
+			);
+			path = Comment;
 			sourceTree = "<group>";
 		};
 		2E9C3B7A283FB37600393DEE /* StudySwiftTest */ = {
@@ -527,6 +555,7 @@
 				2EE93E36282149BC00BEEB5A /* MoreGeneric.swift in Sources */,
 				2EDC959F2A95F33E00E72F2D /* StringInterPolation.swift in Sources */,
 				2E1A2CF1282D3D1800A5D603 /* SwiftyCode_UseExtension.swift in Sources */,
+				2E0937B02B170B740076EC3B /* FlatMapInHigherFunction.swift in Sources */,
 				2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */,
 				2E9F8B5B295F2EC9000DA978 /* Metatype.swift in Sources */,
 				2EBB20652813F29400A8C51D /* Published.swift in Sources */,
@@ -538,6 +567,7 @@
 				2E8B58B329BF26E500310E63 /* associatedType+Protocol.swift in Sources */,
 				2E15D08528BD093900A03983 /* Dictionary.swift in Sources */,
 				2E15D06328BCF8F100A03983 /* Future.swift in Sources */,
+				2E104CE52B4B7756005F0D26 /* CommentFailCase.swift in Sources */,
 				2EE93E3828214BEE00BEEB5A /* ProtocolComparable.swift in Sources */,
 				2E612F2027F3549E00088E42 /* Required Initializer.swift in Sources */,
 				2E15D07628BCF98F00A03983 /* ActorWithExtension.swift in Sources */,
@@ -573,10 +603,12 @@
 				2E15D07128BCF91000A03983 /* unowned.swift in Sources */,
 				2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */,
 				2EAB303B2833C3D600B80DB0 /* what problem opaquetype does solve .swift in Sources */,
+				2EB2D1152B4CC744003F4CF9 /* CommentSuccessCaseBook.swift in Sources */,
 				2E75006A296EAE030016BFEC /* WordRegex.swift in Sources */,
 				2E15D08328BD023A00A03983 /* Set.swift in Sources */,
 				2E167DDF2ACE74690002B921 /* AttachedMacro.swift in Sources */,
 				2E45CE8D27BB8E6B0002F847 /* main.swift in Sources */,
+				2E104CE72B4B7B56005F0D26 /* CommentSuccessCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
