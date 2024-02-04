@@ -53,6 +53,8 @@
 		2E65D9F02888E1D3003ECD3C /* UrlComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65D9EF2888E1D3003ECD3C /* UrlComponents.swift */; };
 		2E67BBF427F136E5008D914C /* ControlStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E67BBF327F136E5008D914C /* ControlStatement.swift */; };
 		2E75006A296EAE030016BFEC /* WordRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E750069296EAE030016BFEC /* WordRegex.swift */; };
+		2E83F4F92B69B85B00EEA80F /* ProgressiveRefactorProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E83F4F82B69B85B00EEA80F /* ProgressiveRefactorProcessor.swift */; };
+		2E83F4FB2B69C1B000EEA80F /* ArgsFirstVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E83F4FA2B69C1B000EEA80F /* ArgsFirstVersion.swift */; };
 		2E8B58B329BF26E500310E63 /* associatedType+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B58B229BF26E500310E63 /* associatedType+Protocol.swift */; };
 		2E8EB18F2AFDD2F500FA3BDA /* Two-Step Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */; };
 		2E93CBF32B05AA0000BA9F54 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E93CBF22B05AA0000BA9F54 /* Throttle.swift */; };
@@ -67,6 +69,7 @@
 		2EBB20652813F29400A8C51D /* Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20642813F29400A8C51D /* Published.swift */; };
 		2EC26F4F27E02B2D00574900 /* weak_self_problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC26F4E27E02B2D00574900 /* weak_self_problem.swift */; };
 		2EC26F5127E02D5800574900 /* weak_self_solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC26F5027E02D5800574900 /* weak_self_solution.swift */; };
+		2EC2F6852B6C71B600526F42 /* ArgsSecondVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2F6842B6C71B600526F42 /* ArgsSecondVersion.swift */; };
 		2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46427D488E2004B4B7D /* ARC.swift */; };
 		2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46627D98A6A004B4B7D /* Integer.swift */; };
 		2EDC959F2A95F33E00E72F2D /* StringInterPolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */; };
@@ -135,6 +138,8 @@
 		2E65D9EF2888E1D3003ECD3C /* UrlComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlComponents.swift; sourceTree = "<group>"; };
 		2E67BBF327F136E5008D914C /* ControlStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlStatement.swift; sourceTree = "<group>"; };
 		2E750069296EAE030016BFEC /* WordRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRegex.swift; sourceTree = "<group>"; };
+		2E83F4F82B69B85B00EEA80F /* ProgressiveRefactorProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveRefactorProcessor.swift; sourceTree = "<group>"; };
+		2E83F4FA2B69C1B000EEA80F /* ArgsFirstVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgsFirstVersion.swift; sourceTree = "<group>"; };
 		2E8B58B229BF26E500310E63 /* associatedType+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "associatedType+Protocol.swift"; sourceTree = "<group>"; };
 		2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two-Step Initialization.swift"; sourceTree = "<group>"; };
 		2E93CBF22B05AA0000BA9F54 /* Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
@@ -150,6 +155,7 @@
 		2EBB20642813F29400A8C51D /* Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published.swift; sourceTree = "<group>"; };
 		2EC26F4E27E02B2D00574900 /* weak_self_problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weak_self_problem.swift; sourceTree = "<group>"; };
 		2EC26F5027E02D5800574900 /* weak_self_solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weak_self_solution.swift; sourceTree = "<group>"; };
+		2EC2F6842B6C71B600526F42 /* ArgsSecondVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgsSecondVersion.swift; sourceTree = "<group>"; };
 		2ED9F46427D488E2004B4B7D /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
 		2ED9F46627D98A6A004B4B7D /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
 		2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterPolation.swift; sourceTree = "<group>"; };
@@ -186,6 +192,7 @@
 		2E104CE32B4B7740005F0D26 /* CleanCode */ = {
 			isa = PBXGroup;
 			children = (
+				2E83F4F72B69B83200EEA80F /* ProgressiveRefactor */,
 				2E83F4F62B69B81100EEA80F /* Comment */,
 			);
 			path = CleanCode;
@@ -401,6 +408,16 @@
 			path = Comment;
 			sourceTree = "<group>";
 		};
+		2E83F4F72B69B83200EEA80F /* ProgressiveRefactor */ = {
+			isa = PBXGroup;
+			children = (
+				2E83F4F82B69B85B00EEA80F /* ProgressiveRefactorProcessor.swift */,
+				2E83F4FA2B69C1B000EEA80F /* ArgsFirstVersion.swift */,
+				2EC2F6842B6C71B600526F42 /* ArgsSecondVersion.swift */,
+			);
+			path = ProgressiveRefactor;
+			sourceTree = "<group>";
+		};
 		2E9C3B7A283FB37600393DEE /* StudySwiftTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -548,8 +565,10 @@
 			files = (
 				2E15D07928BCF9A600A03983 /* associatedobject.swift in Sources */,
 				2E8EB18F2AFDD2F500FA3BDA /* Two-Step Initialization.swift in Sources */,
+				2E83F4FB2B69C1B000EEA80F /* ArgsFirstVersion.swift in Sources */,
 				2EC26F5127E02D5800574900 /* weak_self_solution.swift in Sources */,
 				2E93CBF32B05AA0000BA9F54 /* Throttle.swift in Sources */,
+				2EC2F6852B6C71B600526F42 /* ArgsSecondVersion.swift in Sources */,
 				2E0BE9CC282009A70002DD61 /* ProtocolExtension.swift in Sources */,
 				2EC26F4F27E02B2D00574900 /* weak_self_problem.swift in Sources */,
 				2EE93E36282149BC00BEEB5A /* MoreGeneric.swift in Sources */,
@@ -606,6 +625,7 @@
 				2EB2D1152B4CC744003F4CF9 /* CommentSuccessCaseBook.swift in Sources */,
 				2E75006A296EAE030016BFEC /* WordRegex.swift in Sources */,
 				2E15D08328BD023A00A03983 /* Set.swift in Sources */,
+				2E83F4F92B69B85B00EEA80F /* ProgressiveRefactorProcessor.swift in Sources */,
 				2E167DDF2ACE74690002B921 /* AttachedMacro.swift in Sources */,
 				2E45CE8D27BB8E6B0002F847 /* main.swift in Sources */,
 				2E104CE72B4B7B56005F0D26 /* CommentSuccessCase.swift in Sources */,
@@ -675,7 +695,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -730,7 +750,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
