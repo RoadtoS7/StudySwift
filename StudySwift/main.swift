@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-TestWeak.test_reverse_nil_2()
+TestAccessControl.testPrivateClassProperty()
