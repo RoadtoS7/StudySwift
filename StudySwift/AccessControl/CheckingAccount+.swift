@@ -28,5 +28,13 @@ extension CheckingAccount {
 //    }
 //}
 
-
+//
+//class PrivateClassAccessAtSameFile2 {
+//    // PrivateClassPropertyTypeCheck와 같은 파일에 존재하지 않기 때문에 사용할 수 없다.
+//    let privateClass: PrivateClassPropertyTypeCheck = .init(title: "private class 프로퍼티의 기본 타입은 internal?")
+//    
+//    func access() {
+//        print("$$ ", privateClass.defaultTitle)
+//    }
+//}
 
