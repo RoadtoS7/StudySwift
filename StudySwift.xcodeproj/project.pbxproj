@@ -13,6 +13,7 @@
 		2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */; };
 		2E0BE9CA282007000002DD61 /* OptionalRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */; };
 		2E0BE9CC282009A70002DD61 /* ProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */; };
+		2E0BF4F92C5C5AC500FAC1E4 /* KthNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BF4F82C5C5AC500FAC1E4 /* KthNumber.swift */; };
 		2E104CE52B4B7756005F0D26 /* CommentFailCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E104CE42B4B7756005F0D26 /* CommentFailCase.swift */; };
 		2E104CE72B4B7B56005F0D26 /* CommentSuccessCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E104CE62B4B7B56005F0D26 /* CommentSuccessCase.swift */; };
 		2E15D06328BCF8F100A03983 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15D06228BCF8F100A03983 /* Future.swift */; };
@@ -70,6 +71,7 @@
 		2EC26F4F27E02B2D00574900 /* weak_self_problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC26F4E27E02B2D00574900 /* weak_self_problem.swift */; };
 		2EC26F5127E02D5800574900 /* weak_self_solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC26F5027E02D5800574900 /* weak_self_solution.swift */; };
 		2EC2F6852B6C71B600526F42 /* ArgsSecondVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2F6842B6C71B600526F42 /* ArgsSecondVersion.swift */; };
+		2ED96E932C19850C0037DB40 /* NoncopyableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED96E922C19850C0037DB40 /* NoncopyableTest.swift */; };
 		2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46427D488E2004B4B7D /* ARC.swift */; };
 		2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46627D98A6A004B4B7D /* Integer.swift */; };
 		2EDC959F2A95F33E00E72F2D /* StringInterPolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */; };
@@ -100,6 +102,7 @@
 		2E0BE9C7281FFF110002DD61 /* CheckingProtocolComformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingProtocolComformance.swift; sourceTree = "<group>"; };
 		2E0BE9C9282007000002DD61 /* OptionalRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalRequirement.swift; sourceTree = "<group>"; };
 		2E0BE9CB282009A70002DD61 /* ProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtension.swift; sourceTree = "<group>"; };
+		2E0BF4F82C5C5AC500FAC1E4 /* KthNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthNumber.swift; sourceTree = "<group>"; };
 		2E104CE42B4B7756005F0D26 /* CommentFailCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentFailCase.swift; sourceTree = "<group>"; };
 		2E104CE62B4B7B56005F0D26 /* CommentSuccessCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentSuccessCase.swift; sourceTree = "<group>"; };
 		2E15D06228BCF8F100A03983 /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
@@ -160,6 +163,7 @@
 		2EC26F4E27E02B2D00574900 /* weak_self_problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weak_self_problem.swift; sourceTree = "<group>"; };
 		2EC26F5027E02D5800574900 /* weak_self_solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weak_self_solution.swift; sourceTree = "<group>"; };
 		2EC2F6842B6C71B600526F42 /* ArgsSecondVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgsSecondVersion.swift; sourceTree = "<group>"; };
+		2ED96E922C19850C0037DB40 /* NoncopyableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoncopyableTest.swift; sourceTree = "<group>"; };
 		2ED9F46427D488E2004B4B7D /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
 		2ED9F46627D98A6A004B4B7D /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
 		2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterPolation.swift; sourceTree = "<group>"; };
@@ -195,6 +199,22 @@
 				2E0937AD2B16DB730076EC3B /* TestWeak.swift */,
 			);
 			path = AutoReferenceCycle;
+			sourceTree = "<group>";
+		};
+		2E0BF4F62C5C5AAF00FAC1E4 /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				2E0BF4F72C5C5AB500FAC1E4 /* Sort */,
+			);
+			path = Programmers;
+			sourceTree = "<group>";
+		};
+		2E0BF4F72C5C5AB500FAC1E4 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				2E0BF4F82C5C5AC500FAC1E4 /* KthNumber.swift */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 		2E104CE32B4B7740005F0D26 /* CleanCode */ = {
@@ -348,6 +368,9 @@
 		2E45CE8B27BB8E6B0002F847 /* StudySwift */ = {
 			isa = PBXGroup;
 			children = (
+				2E0BF4F62C5C5AAF00FAC1E4 /* Programmers */,
+				2ED96E942C1986F00037DB40 /* TypedThrows */,
+				2ED96E912C1984FA0037DB40 /* NoncopyableType */,
 				2EE50EE52BBA41C500B559CB /* AccessControl */,
 				2EF4E80B2BB1035000A1181D /* KVO */,
 				2E17A2DA2B705B1B00FD71B9 /* DesignPattern */,
@@ -482,6 +505,21 @@
 				2E93CBF22B05AA0000BA9F54 /* Throttle.swift */,
 			);
 			path = Combine;
+			sourceTree = "<group>";
+		};
+		2ED96E912C1984FA0037DB40 /* NoncopyableType */ = {
+			isa = PBXGroup;
+			children = (
+				2ED96E922C19850C0037DB40 /* NoncopyableTest.swift */,
+			);
+			path = NoncopyableType;
+			sourceTree = "<group>";
+		};
+		2ED96E942C1986F00037DB40 /* TypedThrows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TypedThrows;
 			sourceTree = "<group>";
 		};
 		2EDC959D2A95F32D00E72F2D /* StringInterpolation */ = {
@@ -625,7 +663,9 @@
 				2E104CE52B4B7756005F0D26 /* CommentFailCase.swift in Sources */,
 				2EE93E3828214BEE00BEEB5A /* ProtocolComparable.swift in Sources */,
 				2E612F2027F3549E00088E42 /* Required Initializer.swift in Sources */,
+				2E0BF4F92C5C5AC500FAC1E4 /* KthNumber.swift in Sources */,
 				2E15D07628BCF98F00A03983 /* ActorWithExtension.swift in Sources */,
+				2ED96E932C19850C0037DB40 /* NoncopyableTest.swift in Sources */,
 				2E1A2CF4282D3D6B00A5D603 /* SwiftyCode_UseCustomProperty.swift in Sources */,
 				2E2C520E28C8B2F700239EBB /* UtilityExtension.swift in Sources */,
 				2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */,

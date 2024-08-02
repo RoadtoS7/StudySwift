@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-TestAccessControl.testPrivateClassProperty()
+KthNumber.solution()
