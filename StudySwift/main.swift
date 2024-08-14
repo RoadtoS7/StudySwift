@@ -8,15 +8,15 @@
 import Foundation
 import Combine
 
-let sizes = [
-    [60, 50],
-    [30, 70],
-    [60, 30],
-    [80, 40]
+let sample: Dictionary<Int, [[Int]]> = [
+    9 : [[1,3],[2,3],[3,4],[4,5],[4,6],[4,7],[7,8],[7,9]],
+    4 : [[1,2],[2,3],[3,4]],
+    7 : [[1,2],[2,7],[3,7],[3,4],[4,5],[6,7]]
 ]
 
-let result1 = FindPrimes().solution("17")
-let result2 = FindPrimes().solution("011")
-print("$$ result1: ", result1)
-print("$$ result2: ", result2)
+
+for (n, wires) in sample {
+    let result1 = DivideNetwork().solution2(n, wires)
+    print("$$ result1 - \(n): ", result1)
+}
 

@@ -60,6 +60,7 @@
 		2E8B58B329BF26E500310E63 /* associatedType+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B58B229BF26E500310E63 /* associatedType+Protocol.swift */; };
 		2E8EB18F2AFDD2F500FA3BDA /* Two-Step Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */; };
 		2E93CBF32B05AA0000BA9F54 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E93CBF22B05AA0000BA9F54 /* Throttle.swift */; };
+		2E96A70E2C69C581009138F9 /* DivideNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96A70D2C69C581009138F9 /* DivideNetwork.swift */; };
 		2E9C3B7C283FB37600393DEE /* StatePatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */; };
 		2E9F8B5B295F2EC9000DA978 /* Metatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F8B5A295F2EC9000DA978 /* Metatype.swift */; };
 		2EAB303B2833C3D600B80DB0 /* what problem opaquetype does solve .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB303A2833C3D600B80DB0 /* what problem opaquetype does solve .swift */; };
@@ -155,6 +156,7 @@
 		2E8B58B229BF26E500310E63 /* associatedType+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "associatedType+Protocol.swift"; sourceTree = "<group>"; };
 		2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two-Step Initialization.swift"; sourceTree = "<group>"; };
 		2E93CBF22B05AA0000BA9F54 /* Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
+		2E96A70D2C69C581009138F9 /* DivideNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideNetwork.swift; sourceTree = "<group>"; };
 		2E9C3B79283FB37600393DEE /* StudySwiftTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySwiftTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePatternTest.swift; sourceTree = "<group>"; };
 		2E9F8B5A295F2EC9000DA978 /* Metatype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metatype.swift; sourceTree = "<group>"; };
@@ -475,6 +477,7 @@
 			children = (
 				2E88B59D2C635535003F137A /* MinimumSquare.swift */,
 				2EC087C92C66175700CF4E7D /* FindPrimes.swift */,
+				2E96A70D2C69C581009138F9 /* DivideNetwork.swift */,
 			);
 			path = CompleteSearch;
 			sourceTree = "<group>";
@@ -731,6 +734,7 @@
 				2EE50EE72BBA41CE00B559CB /* CheckingAccount.swift in Sources */,
 				2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */,
 				2EAB303B2833C3D600B80DB0 /* what problem opaquetype does solve .swift in Sources */,
+				2E96A70E2C69C581009138F9 /* DivideNetwork.swift in Sources */,
 				2EB2D1152B4CC744003F4CF9 /* CommentSuccessCaseBook.swift in Sources */,
 				2EC578B02C6097F1000E90C5 /* TheBiggestNumber.swift in Sources */,
 				2EC578B32C609CF8000E90C5 /* Permutation.swift in Sources */,
