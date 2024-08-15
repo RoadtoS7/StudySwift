@@ -15,8 +15,13 @@ let sample: Dictionary<Int, [[Int]]> = [
 ]
 
 
-for (n, wires) in sample {
-    let result1 = DivideNetwork().solution2(n, wires)
-    print("$$ result1 - \(n): ", result1)
+
+[
+DictionaryTest().solution2("AAAAE"),
+DictionaryTest().solution2("AAAE"),
+DictionaryTest().solution2("I"),
+ DictionaryTest().solution2("EIO")
+].forEach { result in
+    print(result)
 }
 

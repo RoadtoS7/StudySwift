@@ -46,6 +46,7 @@
 		2E45CE8D27BB8E6B0002F847 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE8C27BB8E6B0002F847 /* main.swift */; };
 		2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE9327BB8E890002F847 /* KeyPathExpression.swift */; };
 		2E4E55422848A2F3001B5554 /* StringAddingPercentEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E55412848A2F3001B5554 /* StringAddingPercentEncoding.swift */; };
+		2E5F8E902C6DAD66000509C9 /* DictionaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F8E8F2C6DAD66000509C9 /* DictionaryTest.swift */; };
 		2E60B06F2A7C82CC00680EBC /* AsycnSyncSerialConcurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60B06E2A7C82CC00680EBC /* AsycnSyncSerialConcurrent.swift */; };
 		2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E612F1927F3368F00088E42 /* Automatic Initalizer Inheritance.swift */; };
 		2E612F1E27F346E400088E42 /* Failable Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E612F1D27F346E400088E42 /* Failable Initializer.swift */; };
@@ -141,6 +142,7 @@
 		2E45CE8C27BB8E6B0002F847 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2E45CE9327BB8E890002F847 /* KeyPathExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathExpression.swift; sourceTree = "<group>"; };
 		2E4E55412848A2F3001B5554 /* StringAddingPercentEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAddingPercentEncoding.swift; sourceTree = "<group>"; };
+		2E5F8E8F2C6DAD66000509C9 /* DictionaryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTest.swift; sourceTree = "<group>"; };
 		2E60B06E2A7C82CC00680EBC /* AsycnSyncSerialConcurrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsycnSyncSerialConcurrent.swift; sourceTree = "<group>"; };
 		2E612F1927F3368F00088E42 /* Automatic Initalizer Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Automatic Initalizer Inheritance.swift"; sourceTree = "<group>"; };
 		2E612F1C27F336BF00088E42 /* Intializer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Intializer.md; sourceTree = "<group>"; };
@@ -478,6 +480,7 @@
 				2E88B59D2C635535003F137A /* MinimumSquare.swift */,
 				2EC087C92C66175700CF4E7D /* FindPrimes.swift */,
 				2E96A70D2C69C581009138F9 /* DivideNetwork.swift */,
+				2E5F8E8F2C6DAD66000509C9 /* DictionaryTest.swift */,
 			);
 			path = CompleteSearch;
 			sourceTree = "<group>";
@@ -697,6 +700,7 @@
 				2E0BF4F92C5C5AC500FAC1E4 /* KthNumber.swift in Sources */,
 				2E15D07628BCF98F00A03983 /* ActorWithExtension.swift in Sources */,
 				2EC087CA2C66175700CF4E7D /* FindPrimes.swift in Sources */,
+				2E5F8E902C6DAD66000509C9 /* DictionaryTest.swift in Sources */,
 				2ED96E932C19850C0037DB40 /* NoncopyableTest.swift in Sources */,
 				2E1A2CF4282D3D6B00A5D603 /* SwiftyCode_UseCustomProperty.swift in Sources */,
 				2E2C520E28C8B2F700239EBB /* UtilityExtension.swift in Sources */,
