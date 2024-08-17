@@ -14,14 +14,20 @@ let sample: Dictionary<Int, [[Int]]> = [
     7 : [[1,2],[2,7],[3,7],[3,4],[4,5],[6,7]]
 ]
 
+let numbers: [[Int]] = [
+    [1, 1, 1, 1, 1],
+    [4, 1, 2, 1]
+]
+
+let target : [Int] = [
+    3, 4
+]
 
 
-[
-DictionaryTest().solution2("AAAAE"),
-DictionaryTest().solution2("AAAE"),
-DictionaryTest().solution2("I"),
- DictionaryTest().solution2("EIO")
-].forEach { result in
-    print(result)
-}
+
+    
+let result1 = TargetNumberSolution().solution3([1, 1, 1, 1, 1], 3)
+let result2 = TargetNumberSolution().solution3([4, 1, 2, 1], 4)
+print(result1)
+print(result2)
 
