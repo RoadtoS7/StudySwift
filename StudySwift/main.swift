@@ -8,8 +8,12 @@
 import Foundation
 import Combine
 
-let result1 = NetworkSolution().solutionDFS(3, [[1, 1, 0], [1, 1, 0], [0, 0, 1]])
-let result2 = NetworkSolution().solutionDFS(3, [[1, 1, 0], [1, 1, 1], [0, 1, 1]])
+//"hit"    "cog"    ["hot", "dot", "dog", "lot", "log", "cog"]    4
+//"hit"    "cog"    ["hot", "dot", "dog", "lot", "log"]    0
+
+let result1 = ConvertWords().solution(T_: "hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"])
+//let result2 = ConvertWords().solution(T_: "hit", "cog",  ["hot", "dot", "dog", "lot", "log"] )
+
 
 print("$$ result1: ", result1)
-print("$$ result2: ", result2)
+//print("$$ result2: ", result2)

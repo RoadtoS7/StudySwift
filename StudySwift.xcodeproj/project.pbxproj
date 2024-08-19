@@ -64,6 +64,8 @@
 		2E8EB18F2AFDD2F500FA3BDA /* Two-Step Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */; };
 		2E93CBF32B05AA0000BA9F54 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E93CBF22B05AA0000BA9F54 /* Throttle.swift */; };
 		2E96A70E2C69C581009138F9 /* DivideNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96A70D2C69C581009138F9 /* DivideNetwork.swift */; };
+		2E9A3DFD2C719CE7001269DD /* ConvertWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A3DFC2C719CE7001269DD /* ConvertWords.swift */; };
+		2E9A3DFF2C71A72A001269DD /* CompareWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A3DFE2C71A72A001269DD /* CompareWord.swift */; };
 		2E9C3B7C283FB37600393DEE /* StatePatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */; };
 		2E9F8B5B295F2EC9000DA978 /* Metatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F8B5A295F2EC9000DA978 /* Metatype.swift */; };
 		2EAB303B2833C3D600B80DB0 /* what problem opaquetype does solve .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB303A2833C3D600B80DB0 /* what problem opaquetype does solve .swift */; };
@@ -163,6 +165,8 @@
 		2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two-Step Initialization.swift"; sourceTree = "<group>"; };
 		2E93CBF22B05AA0000BA9F54 /* Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
 		2E96A70D2C69C581009138F9 /* DivideNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideNetwork.swift; sourceTree = "<group>"; };
+		2E9A3DFC2C719CE7001269DD /* ConvertWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertWords.swift; sourceTree = "<group>"; };
+		2E9A3DFE2C71A72A001269DD /* CompareWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareWord.swift; sourceTree = "<group>"; };
 		2E9C3B79283FB37600393DEE /* StudySwiftTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySwiftTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9C3B7B283FB37600393DEE /* StatePatternTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePatternTest.swift; sourceTree = "<group>"; };
 		2E9F8B5A295F2EC9000DA978 /* Metatype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metatype.swift; sourceTree = "<group>"; };
@@ -442,6 +446,7 @@
 			children = (
 				2E5F8E922C6EE77C000509C9 /* TargetNumberSolution.swift */,
 				2E1193502C70541A00E4B6D3 /* NetworkSolution.swift */,
+				2E9A3DFC2C719CE7001269DD /* ConvertWords.swift */,
 			);
 			path = BFS_DFS;
 			sourceTree = "<group>";
@@ -551,6 +556,7 @@
 			isa = PBXGroup;
 			children = (
 				2EC578B22C609CF8000E90C5 /* Permutation.swift */,
+				2E9A3DFE2C71A72A001269DD /* CompareWord.swift */,
 			);
 			path = UtilKit;
 			sourceTree = "<group>";
@@ -704,6 +710,7 @@
 				2E44C2A32805C81C00001E12 /* Assigning Constant Properties During Initialization.swift in Sources */,
 				2E67BBF427F136E5008D914C /* ControlStatement.swift in Sources */,
 				2E253B6829D26A4700D1503E /* CurrentValue+didSet.swift in Sources */,
+				2E9A3DFD2C719CE7001269DD /* ConvertWords.swift in Sources */,
 				2EB8955528064EDE00F96D4D /* Extension Protocol .swift in Sources */,
 				2E8B58B329BF26E500310E63 /* associatedType+Protocol.swift in Sources */,
 				2E15D08528BD093900A03983 /* Dictionary.swift in Sources */,
@@ -717,6 +724,7 @@
 				2EC087CA2C66175700CF4E7D /* FindPrimes.swift in Sources */,
 				2E5F8E902C6DAD66000509C9 /* DictionaryTest.swift in Sources */,
 				2ED96E932C19850C0037DB40 /* NoncopyableTest.swift in Sources */,
+				2E9A3DFF2C71A72A001269DD /* CompareWord.swift in Sources */,
 				2E1A2CF4282D3D6B00A5D603 /* SwiftyCode_UseCustomProperty.swift in Sources */,
 				2E2C520E28C8B2F700239EBB /* UtilityExtension.swift in Sources */,
 				2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */,
