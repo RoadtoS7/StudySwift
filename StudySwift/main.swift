@@ -8,12 +8,8 @@
 import Foundation
 import Combine
 
-//"hit"    "cog"    ["hot", "dot", "dog", "lot", "log", "cog"]    4
-//"hit"    "cog"    ["hot", "dot", "dog", "lot", "log"]    0
+//[["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]
+//[["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
 
-let result1 = ConvertWords().solution(T_: "hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"])
-//let result2 = ConvertWords().solution(T_: "hit", "cog",  ["hot", "dot", "dog", "lot", "log"] )
-
-
-print("$$ result1: ", result1)
-//print("$$ result2: ", result2)
+TripPath().solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]])
+TripPath().solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]])
