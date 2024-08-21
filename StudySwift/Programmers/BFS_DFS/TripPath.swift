@@ -42,7 +42,7 @@ final class TripPath {
         }
         
         for dest in fromTo {
-            guard allUsed["\(from)\(fromTo)"] == false {
+            guard allUsed["\(from)\(fromTo)"] == false else {
                 continue
             }
             
