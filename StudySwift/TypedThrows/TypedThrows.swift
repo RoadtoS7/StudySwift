@@ -1,11 +1,11 @@
+////
+////  TypedThrows.swift
+////  StudySwift
+////
+////  Created by nylah.j on 8/21/24.
+////
 //
-//  TypedThrows.swift
-//  StudySwift
-//
-//  Created by nylah.j on 8/21/24.
-//
-
-import Foundation
+//import Foundation
 //
 //enum TypedError: Error {
 //    case invalidUrl
@@ -23,8 +23,8 @@ import Foundation
 //        do {
 //            let urlLiteral: String = "invalid url"
 //            let _: URLRequest = try makeUrlRequest(urlLiteral: urlLiteral)
-//        } catch {
-//            throw error
+//        } catch TypedError.invalidUrl {
+//            print("$$ invalidUrl!!")
 //        }
 //    }
 //}
