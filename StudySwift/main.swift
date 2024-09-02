@@ -8,8 +8,9 @@
 import Foundation
 import Combine
 
-//[["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]
-//[["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
+Task { @MainActor in 
+    // Task르
+    print("$$ Thread.current.isMainThread", Thread.current.isMainThread)
+}
+Thread.sleep(forTimeInterval: 1000)
 
-TripPath().solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]])
-TripPath().solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]])

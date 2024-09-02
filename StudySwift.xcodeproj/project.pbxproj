@@ -43,6 +43,7 @@
 		2E25F9A1281EA4F700DC8F43 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A0281EA4F700DC8F43 /* Initializer.swift */; };
 		2E25F9A3281EB18E00DC8F43 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */; };
 		2E2C520E28C8B2F700239EBB /* UtilityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C520D28C8B2F700239EBB /* UtilityExtension.swift */; };
+		2E2E44512C85746D0044B43D /* CountWhere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E44502C85746D0044B43D /* CountWhere.swift */; };
 		2E30D1BC2C75B9B0002B4972 /* FillThePuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E30D1BB2C75B9B0002B4972 /* FillThePuzzle.swift */; };
 		2E30D1BF2C76110E002B4972 /* TypedThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E30D1BE2C76110E002B4972 /* TypedThrows.swift */; };
 		2E44C2A32805C81C00001E12 /* Assigning Constant Properties During Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44C2A22805C81C00001E12 /* Assigning Constant Properties During Initialization.swift */; };
@@ -62,6 +63,7 @@
 		2E83F4F92B69B85B00EEA80F /* ProgressiveRefactorProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E83F4F82B69B85B00EEA80F /* ProgressiveRefactorProcessor.swift */; };
 		2E83F4FB2B69C1B000EEA80F /* ArgsFirstVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E83F4FA2B69C1B000EEA80F /* ArgsFirstVersion.swift */; };
 		2E88B59E2C635535003F137A /* MinimumSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88B59D2C635535003F137A /* MinimumSquare.swift */; };
+		2E8B55242C7821A000AB5EF1 /* TaskContextSwitching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B55232C7821A000AB5EF1 /* TaskContextSwitching.swift */; };
 		2E8B58B329BF26E500310E63 /* associatedType+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B58B229BF26E500310E63 /* associatedType+Protocol.swift */; };
 		2E8EB18F2AFDD2F500FA3BDA /* Two-Step Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */; };
 		2E93CBF32B05AA0000BA9F54 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E93CBF22B05AA0000BA9F54 /* Throttle.swift */; };
@@ -145,6 +147,7 @@
 		2E25F9A0281EA4F700DC8F43 /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
 		2E25F9A2281EB18E00DC8F43 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
 		2E2C520D28C8B2F700239EBB /* UtilityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtension.swift; sourceTree = "<group>"; };
+		2E2E44502C85746D0044B43D /* CountWhere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountWhere.swift; sourceTree = "<group>"; };
 		2E30D1BB2C75B9B0002B4972 /* FillThePuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillThePuzzle.swift; sourceTree = "<group>"; };
 		2E30D1BE2C76110E002B4972 /* TypedThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedThrows.swift; sourceTree = "<group>"; };
 		2E44C2A22805C81C00001E12 /* Assigning Constant Properties During Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assigning Constant Properties During Initialization.swift"; sourceTree = "<group>"; };
@@ -167,6 +170,7 @@
 		2E83F4F82B69B85B00EEA80F /* ProgressiveRefactorProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveRefactorProcessor.swift; sourceTree = "<group>"; };
 		2E83F4FA2B69C1B000EEA80F /* ArgsFirstVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgsFirstVersion.swift; sourceTree = "<group>"; };
 		2E88B59D2C635535003F137A /* MinimumSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSquare.swift; sourceTree = "<group>"; };
+		2E8B55232C7821A000AB5EF1 /* TaskContextSwitching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskContextSwitching.swift; sourceTree = "<group>"; };
 		2E8B58B229BF26E500310E63 /* associatedType+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "associatedType+Protocol.swift"; sourceTree = "<group>"; };
 		2E8EB18E2AFDD2F500FA3BDA /* Two-Step Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two-Step Initialization.swift"; sourceTree = "<group>"; };
 		2E93CBF22B05AA0000BA9F54 /* Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
@@ -377,6 +381,14 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		2E2E444F2C8574640044B43D /* Swift6 */ = {
+			isa = PBXGroup;
+			children = (
+				2E2E44502C85746D0044B43D /* CountWhere.swift */,
+			);
+			path = Swift6;
+			sourceTree = "<group>";
+		};
 		2E45CE8027BB8E6B0002F847 = {
 			isa = PBXGroup;
 			children = (
@@ -398,6 +410,8 @@
 		2E45CE8B27BB8E6B0002F847 /* StudySwift */ = {
 			isa = PBXGroup;
 			children = (
+				2E2E444F2C8574640044B43D /* Swift6 */,
+				2E8B55222C78219200AB5EF1 /* ModernConcurrency */,
 				2EC578B12C609CEA000E90C5 /* UtilKit */,
 				2E0BF4F62C5C5AAF00FAC1E4 /* Programmers */,
 				2ED96E942C1986F00037DB40 /* TypedThrows */,
@@ -511,6 +525,14 @@
 				2E5F8E8F2C6DAD66000509C9 /* DictionaryTest.swift */,
 			);
 			path = CompleteSearch;
+			sourceTree = "<group>";
+		};
+		2E8B55222C78219200AB5EF1 /* ModernConcurrency */ = {
+			isa = PBXGroup;
+			children = (
+				2E8B55232C7821A000AB5EF1 /* TaskContextSwitching.swift */,
+			);
+			path = ModernConcurrency;
 			sourceTree = "<group>";
 		};
 		2E9C3B7A283FB37600393DEE /* StudySwiftTest */ = {
@@ -732,6 +754,7 @@
 				2E612F2027F3549E00088E42 /* Required Initializer.swift in Sources */,
 				2E0BF4F92C5C5AC500FAC1E4 /* KthNumber.swift in Sources */,
 				2E15D07628BCF98F00A03983 /* ActorWithExtension.swift in Sources */,
+				2E2E44512C85746D0044B43D /* CountWhere.swift in Sources */,
 				2EC087CA2C66175700CF4E7D /* FindPrimes.swift in Sources */,
 				2E5F8E902C6DAD66000509C9 /* DictionaryTest.swift in Sources */,
 				2E9A3E012C72FCFC001269DD /* TripPath.swift in Sources */,
@@ -759,6 +782,7 @@
 				2E1E9AA42945C93E00E001BE /* file_referncecount개념과_강한참조개념.swift in Sources */,
 				2E0937AE2B16DB730076EC3B /* TestWeak.swift in Sources */,
 				2E17A62B293A39BB00E7552D /* magic.swift in Sources */,
+				2E8B55242C7821A000AB5EF1 /* TaskContextSwitching.swift in Sources */,
 				2E60B06F2A7C82CC00680EBC /* AsycnSyncSerialConcurrent.swift in Sources */,
 				2E88B59E2C635535003F137A /* MinimumSquare.swift in Sources */,
 				2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */,
