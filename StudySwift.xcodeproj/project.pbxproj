@@ -96,6 +96,7 @@
 		2EE93E36282149BC00BEEB5A /* MoreGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE93E35282149BC00BEEB5A /* MoreGeneric.swift */; };
 		2EE93E3828214BEE00BEEB5A /* ProtocolComparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE93E3728214BEE00BEEB5A /* ProtocolComparable.swift */; };
 		2EF4E80D2BB1035E00A1181D /* KVOExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF4E80C2BB1035E00A1181D /* KVOExamples.swift */; };
+		F41C7E0C2C875C2800EB2554 /* RangeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C7E0B2C875C2800EB2554 /* RangeSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -204,6 +205,7 @@
 		2EE93E35282149BC00BEEB5A /* MoreGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreGeneric.swift; sourceTree = "<group>"; };
 		2EE93E3728214BEE00BEEB5A /* ProtocolComparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolComparable.swift; sourceTree = "<group>"; };
 		2EF4E80C2BB1035E00A1181D /* KVOExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOExamples.swift; sourceTree = "<group>"; };
+		F41C7E0B2C875C2800EB2554 /* RangeSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,6 +387,7 @@
 			isa = PBXGroup;
 			children = (
 				2E2E44502C85746D0044B43D /* CountWhere.swift */,
+				F41C7E0B2C875C2800EB2554 /* RangeSet.swift */,
 			);
 			path = Swift6;
 			sourceTree = "<group>";
@@ -750,6 +753,7 @@
 				2E5F8E932C6EE77C000509C9 /* TargetNumberSolution.swift in Sources */,
 				2E15D06328BCF8F100A03983 /* Future.swift in Sources */,
 				2E104CE52B4B7756005F0D26 /* CommentFailCase.swift in Sources */,
+				F41C7E0C2C875C2800EB2554 /* RangeSet.swift in Sources */,
 				2EE93E3828214BEE00BEEB5A /* ProtocolComparable.swift in Sources */,
 				2E612F2027F3549E00088E42 /* Required Initializer.swift in Sources */,
 				2E0BF4F92C5C5AC500FAC1E4 /* KthNumber.swift in Sources */,
