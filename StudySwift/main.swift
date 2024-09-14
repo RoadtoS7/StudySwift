@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-BubbleSort.test()
+SelectionSort.test()
