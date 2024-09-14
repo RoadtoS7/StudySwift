@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-QuickSort<Int>.test()
+BubbleSort.test()
