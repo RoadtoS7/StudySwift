@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-TheBiggestNumber.test()
+HIndex.test()

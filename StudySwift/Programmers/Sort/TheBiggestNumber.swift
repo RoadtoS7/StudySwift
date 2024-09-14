@@ -23,7 +23,7 @@ class TheBiggestNumber {
             [3, 30, 34, 5, 9],
             [0]
         ].forEach { numbers in
-            let sol = TheBiggestNumber().solution2(numbers)
+            let sol = TheBiggestNumber().solution(numbers)
             print(sol)
         }
     }
