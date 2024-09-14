@@ -8,9 +8,4 @@
 import Foundation
 import Combine
 
-Task { @MainActor in 
-    // Task르
-    print("$$ Thread.current.isMainThread", Thread.current.isMainThread)
-}
-Thread.sleep(forTimeInterval: 1000)
-
+Heap<Int>.test()
