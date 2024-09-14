@@ -257,7 +257,7 @@
 		2E0BF4F62C5C5AAF00FAC1E4 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				2E653DD02C95389C00A6B57C /* Heap_Stack */,
+				2E653DD02C95389C00A6B57C /* Queue_Stack */,
 				2E5F8E912C6EE76E000509C9 /* BFS_DFS */,
 				2E88B59C2C63551F003F137A /* CompleteSearch */,
 				2E0BF4F72C5C5AB500FAC1E4 /* Sort */,
@@ -522,12 +522,12 @@
 			path = Intializer;
 			sourceTree = "<group>";
 		};
-		2E653DD02C95389C00A6B57C /* Heap_Stack */ = {
+		2E653DD02C95389C00A6B57C /* Queue_Stack */ = {
 			isa = PBXGroup;
 			children = (
 				2E653DE32C95B69D00A6B57C /* Rightparentheses.swift */,
 			);
-			path = Heap_Stack;
+			path = Queue_Stack;
 			sourceTree = "<group>";
 		};
 		2E653DD32C9560A800A6B57C /* DataStrcuture */ = {
