@@ -8,4 +8,5 @@
 import Foundation
 import Combine
 
-Heap<Int>.test()
+Queue<Int>.test()
+Queue<Int>.test2()

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Heap<Element> {
+struct Queue<Element> {
     private var elements: [Element] = []
     
     var isEmpty: Bool {
@@ -41,12 +41,24 @@ struct Heap<Element> {
     }
     
     static func test() {
-        var heap = Heap<Int>(1, 2, 3, 4, 5)
+        var heap = Queue<Int>(1, 2, 3, 4, 5)
         let peek: Int? = heap.peek()
         print("$$ peak: \(peek)")
         
         heap.enqueue(6)
         let dequeue = heap.dequeue()
         print("$$ dequeue: ", dequeue)
+    }
+    
+    static func test2() {
+        var queue = Queue<Int>()
+        queue.enqueue(10)
+        queue.enqueue(20)
+        queue.enqueue(30)
+
+        print(queue.dequeue())  // 10 (첫 번째로 들어온 값)
+        print(queue.dequeue())  // 20
+        print(queue.peek())     // 30 (첫 번째로 들어온 값 확인, 제거하지 않음)
+        print(queue.dequeue())  // 30
     }
 }
