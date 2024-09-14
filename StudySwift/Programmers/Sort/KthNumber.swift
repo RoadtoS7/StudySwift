@@ -32,4 +32,25 @@ struct KthNumber {
         }
         return result
     }
+    
+    
+    func solution2(_ array:[Int], _ commands:[[Int]]) -> [Int] {
+        var result: [Int] = []
+        
+        for command in commands {
+            let (i, j, k) = (command[0]-1, command[1]-1, command[2]-1)
+            let sortedArray = array[i..<j+1].sorted()
+            let kNumber = sortedArray[k]
+            result.append(kNumber)
+        }
+        return result
+    }
+    
+    static func test() {
+        let array = [1, 5, 2, 6, 3, 7, 4]
+        let commands = [[2, 5, 3], [4, 4, 1], [1, 7, 3]]
+        
+        let result = KthNumber().solution2(array, commands)
+        print("$$ result", result)
+    }
 }
