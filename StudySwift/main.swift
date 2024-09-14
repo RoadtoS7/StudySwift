@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-Heap<Int>.test()
+DiskController.test()
