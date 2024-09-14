@@ -416,6 +416,7 @@
 		2E45CE8B27BB8E6B0002F847 /* StudySwift */ = {
 			isa = PBXGroup;
 			children = (
+				2E653DD32C9560A800A6B57C /* DataStrcuture */,
 				2E2E444F2C8574640044B43D /* Swift6 */,
 				2E8B55222C78219200AB5EF1 /* ModernConcurrency */,
 				2EC578B12C609CEA000E90C5 /* UtilKit */,
@@ -505,9 +506,16 @@
 		2E653DD02C95389C00A6B57C /* Heap_Stack */ = {
 			isa = PBXGroup;
 			children = (
-				2E653DD12C9538D000A6B57C /* Heap.swift */,
 			);
 			path = Heap_Stack;
+			sourceTree = "<group>";
+		};
+		2E653DD32C9560A800A6B57C /* DataStrcuture */ = {
+			isa = PBXGroup;
+			children = (
+				2E653DD12C9538D000A6B57C /* Heap.swift */,
+			);
+			path = DataStrcuture;
 			sourceTree = "<group>";
 		};
 		2E83F4F62B69B81100EEA80F /* Comment */ = {
