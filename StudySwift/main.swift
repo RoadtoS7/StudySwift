@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-MergeSort.test()
+QuickSort<Int>.test()
