@@ -90,6 +90,7 @@
 		2EB7FE0E27E8AE7F009F2E20 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */; };
 		2EB8955528064EDE00F96D4D /* Extension Protocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8955428064EDE00F96D4D /* Extension Protocol .swift */; };
 		2EB89558280653B700F96D4D /* Self.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB89557280653B700F96D4D /* Self.swift */; };
+		2EBA3ECB2C95DB9500D98F20 /* ClothesSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ECA2C95DB9500D98F20 /* ClothesSolution.swift */; };
 		2EBB20632813E87800A8C51D /* FlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20622813E87800A8C51D /* FlatMap.swift */; };
 		2EBB20652813F29400A8C51D /* Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20642813F29400A8C51D /* Published.swift */; };
 		2EC087CA2C66175700CF4E7D /* FindPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC087C92C66175700CF4E7D /* FindPrimes.swift */; };
@@ -211,6 +212,7 @@
 		2EB7FE0D27E8AE7F009F2E20 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		2EB8955428064EDE00F96D4D /* Extension Protocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Protocol .swift"; sourceTree = "<group>"; };
 		2EB89557280653B700F96D4D /* Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self.swift; sourceTree = "<group>"; };
+		2EBA3ECA2C95DB9500D98F20 /* ClothesSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesSolution.swift; sourceTree = "<group>"; };
 		2EBB20622813E87800A8C51D /* FlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMap.swift; sourceTree = "<group>"; };
 		2EBB20642813F29400A8C51D /* Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published.swift; sourceTree = "<group>"; };
 		2EC087C92C66175700CF4E7D /* FindPrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPrimes.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 		2E0BF4F62C5C5AAF00FAC1E4 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				2EBA3EC92C95DB8B00D98F20 /* Hash */,
 				2E653DEA2C95C3A600A6B57C /* Heap */,
 				2E653DD02C95389C00A6B57C /* Queue_Stack */,
 				2E5F8E912C6EE76E000509C9 /* BFS_DFS */,
@@ -642,6 +645,14 @@
 			path = MetaType;
 			sourceTree = "<group>";
 		};
+		2EBA3EC92C95DB8B00D98F20 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				2EBA3ECA2C95DB9500D98F20 /* ClothesSolution.swift */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
 		2EBB20612813E86B00A8C51D /* Combine */ = {
 			isa = PBXGroup;
 			children = (
@@ -877,6 +888,7 @@
 				2EBB20632813E87800A8C51D /* FlatMap.swift in Sources */,
 				2E0BE9C6281FF6F00002DD61 /* ProtocolComposition.swift in Sources */,
 				2E15D07128BCF91000A03983 /* unowned.swift in Sources */,
+				2EBA3ECB2C95DB9500D98F20 /* ClothesSolution.swift in Sources */,
 				2EE50EE72BBA41CE00B559CB /* CheckingAccount.swift in Sources */,
 				2E653DDA2C95769300A6B57C /* SortInSwift.swift in Sources */,
 				2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */,
