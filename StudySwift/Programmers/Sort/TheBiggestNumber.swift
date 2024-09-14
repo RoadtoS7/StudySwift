@@ -16,4 +16,15 @@ class TheBiggestNumber {
             .reduce("") { $0 + $1 }
         return sortedNumbers.first == 0 ? "0" : result
     }
+    
+    static func test() {
+        [
+            [6, 10, 2],
+            [3, 30, 34, 5, 9],
+            [0]
+        ].forEach { numbers in
+            let sol = TheBiggestNumber().solution2(numbers)
+            print(sol)
+        }
+    }
 }

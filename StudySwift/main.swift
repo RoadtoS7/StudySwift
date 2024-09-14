@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-KthNumber.test()
+TheBiggestNumber.test()
