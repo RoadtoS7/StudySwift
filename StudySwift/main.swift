@@ -8,5 +8,4 @@
 import Foundation
 import Combine
 
-Queue<Int>.test()
-Queue<Int>.test2()
+InsertionSort.test()
