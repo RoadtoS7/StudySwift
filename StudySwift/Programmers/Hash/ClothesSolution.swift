@@ -28,13 +28,30 @@ final class ClothesSolution {
         return setCount - 1
     }
     
+    
+    func solution2(_ clothes: [[String]]) -> Int {
+        typealias Closet = [String : [String]]
+
+        let count: Int = clothes.map { cloth in
+            (name: cloth[0], type: cloth[1])
+        }.reduce(into: Closet()) { partialResult, cloth in
+            let clothes = partialResult[cloth.type, default: []]
+            partialResult[cloth.type] = clothes + [cloth.name]
+        }.reduce(into: 1) { partialResult, dict in
+            partialResult *= (dict.value.count + 1)
+        }
+        
+        return count - 1
+    }
+    
+    
     static func test() {
         [
             [["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]],
             [["crow_mask", "face"], ["blue_sunglasses", "face"], ["smoky_makeup", "face"]],
             [["crow_mask", "face"]]
         ].forEach { clothes in
-            print(ClothesSolution().solution(clothes))
+            print(ClothesSolution().solution2(clothes))
         }
         
     }

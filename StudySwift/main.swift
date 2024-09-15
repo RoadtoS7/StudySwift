@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-DoublePriorityQueue.test()
+ClothesSolution.test()
 
