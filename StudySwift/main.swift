@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-ClothesSolution.test()
+BestAlbum.test()
