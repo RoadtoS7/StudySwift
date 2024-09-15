@@ -93,6 +93,7 @@
 		2EBA3ECB2C95DB9500D98F20 /* ClothesSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ECA2C95DB9500D98F20 /* ClothesSolution.swift */; };
 		2EBA3ECD2C95DF4D00D98F20 /* BestAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ECC2C95DF4D00D98F20 /* BestAlbum.swift */; };
 		2EBA3ECF2C9699DF00D98F20 /* ProcessSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ECE2C9699DF00D98F20 /* ProcessSolution.swift */; };
+		2EBA3ED12C96B54B00D98F20 /* TruckCorrsingTheBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ED02C96B54B00D98F20 /* TruckCorrsingTheBridge.swift */; };
 		2EBB20632813E87800A8C51D /* FlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20622813E87800A8C51D /* FlatMap.swift */; };
 		2EBB20652813F29400A8C51D /* Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20642813F29400A8C51D /* Published.swift */; };
 		2EC087CA2C66175700CF4E7D /* FindPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC087C92C66175700CF4E7D /* FindPrimes.swift */; };
@@ -217,6 +218,7 @@
 		2EBA3ECA2C95DB9500D98F20 /* ClothesSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesSolution.swift; sourceTree = "<group>"; };
 		2EBA3ECC2C95DF4D00D98F20 /* BestAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestAlbum.swift; sourceTree = "<group>"; };
 		2EBA3ECE2C9699DF00D98F20 /* ProcessSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessSolution.swift; sourceTree = "<group>"; };
+		2EBA3ED02C96B54B00D98F20 /* TruckCorrsingTheBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckCorrsingTheBridge.swift; sourceTree = "<group>"; };
 		2EBB20622813E87800A8C51D /* FlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMap.swift; sourceTree = "<group>"; };
 		2EBB20642813F29400A8C51D /* Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published.swift; sourceTree = "<group>"; };
 		2EC087C92C66175700CF4E7D /* FindPrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPrimes.swift; sourceTree = "<group>"; };
@@ -540,6 +542,7 @@
 			children = (
 				2E653DE32C95B69D00A6B57C /* Rightparentheses.swift */,
 				2EBA3ECE2C9699DF00D98F20 /* ProcessSolution.swift */,
+				2EBA3ED02C96B54B00D98F20 /* TruckCorrsingTheBridge.swift */,
 			);
 			path = Queue_Stack;
 			sourceTree = "<group>";
@@ -857,6 +860,7 @@
 				2E653DEC2C95C3AF00A6B57C /* DiskController.swift in Sources */,
 				2E2C520E28C8B2F700239EBB /* UtilityExtension.swift in Sources */,
 				2E0BE9C8281FFF110002DD61 /* CheckingProtocolComformance.swift in Sources */,
+				2EBA3ED12C96B54B00D98F20 /* TruckCorrsingTheBridge.swift in Sources */,
 				2E25F99F281EA1CE00DC8F43 /* MutatingFunction.swift in Sources */,
 				2E653DDC2C957B2B00A6B57C /* QuickSort.swift in Sources */,
 				2E0BE9CA282007000002DD61 /* OptionalRequirement.swift in Sources */,
