@@ -8,4 +8,4 @@
 import Foundation
 import Combine
 
-BestAlbum.test()
+ProcessSolution.test()
