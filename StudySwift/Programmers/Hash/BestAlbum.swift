@@ -45,10 +45,60 @@ final class BestAlbum {
         }
     }
     
+    func solution2(_ genres:[String], _ plays:[Int]) -> [Int] {
+        var genreDict: [String:GenreInfo] = [:]
+        
+        zip(genres, plays)
+            .enumerated()
+            .map { (id: Int, genrePlay) in
+                let (genre, play) = genrePlay
+                return Song(id: id, genre: genre, count: play)
+            }.forEach { (song: Song) in
+                if let genre = genreDict[song.genre] {
+                    let count = genre.count + song.count
+                    var songs = genre.songs + [song]
+                    songs.sort { $0.count > $1.count } // 시간복잡도 줄일 포인트
+                    genreDict[song.genre]  = GenreInfo(title: song.genre, count: count, songs: songs)
+                } else {
+                    genreDict[song.genre]  = GenreInfo(title: song.genre, count: song.count, songs: [song])
+                }
+            }
+        
+       return  genreDict.values.sorted {
+            $0.count > $1.count
+        }.reduce(Array<Int>()) { partialResult, genreInfo in
+            let twoSongs = genreInfo.songs.count >= 2 ? genreInfo.songs[0...1] : genreInfo.songs[0...0]
+            let ids = twoSongs.map { $0.id }
+            return partialResult + ids
+        }
+    }
+    
+    struct GenreInfo: Hashable {
+        static func == (lhs: BestAlbum.GenreInfo, rhs: BestAlbum.GenreInfo) -> Bool {
+            lhs.title == rhs.title
+            && lhs.count == rhs.count
+            && lhs.songs == rhs.songs
+        }
+        
+        let title: String
+        let count: Int
+        let songs: [Song]
+        
+        func hash(into hasher: inout Hasher) {
+            hasher.combine(title)
+        }
+    }
+    
+    struct Song: Equatable {
+        let id: Int
+        let genre: String
+        let count: Int
+    }
+    
     static func test() {
         let genres = ["classic", "pop", "classic", "classic", "pop"]
         let plays = [500, 600, 150, 800, 2500]
-        let result = BestAlbum().solution(genres, plays)
+        let result = BestAlbum().solution2(genres, plays)
         print(result)
     }
 }

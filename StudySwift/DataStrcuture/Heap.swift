@@ -108,7 +108,7 @@ struct Heap<T: Comparable> {
     }
     
     static func heapSort<T: Comparable>(_ array: [T]) -> [T] {
-        var heap = Heap<T>(sort: >, elements: array)
+        var heap = Heap<T>(sort: <, elements: array)
         var sortedArray = [T]()
         
         while heap.isEmpty == false {
