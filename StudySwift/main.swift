@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-TiredSolution.test()
+GymClotheSolution.test()
 

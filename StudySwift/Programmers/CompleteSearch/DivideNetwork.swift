@@ -97,4 +97,39 @@ final class DivideNetwork {
         
         return count
     }
+    
+//    func solution3(_ n:Int, _ wires:[[Int]]) -> Int {
+//        // 전력망을 하나 없앤다.
+//        // 탐색하면서 개수를 센다.
+//        // 개수 차이를 얻어서 max값을 구한다.
+//        let network = makeNetwork(wires)
+//    
+//    }
+//    
+//    private func makeNetwork(_ wires: [[Int]]) -> [Int: [Int]] {
+//        var result = [Int:[Int]]()
+//        for wire in wires {
+//            let (start, end) = (wire[0], wire[1])
+//            result[start, default: []].append(end)
+//            result[end, default: []].append(start)
+//        }
+//        return result
+//    }
+//    
+//    private func traverse(_ network: [Int: [Int]]) {
+//        var needToVisit: [Int] = network.values.first!
+//        let (exStart, exEnd) = (excluded[0], excluded[1])
+//        
+//        while needToVisit.isEmpty == false {
+//            let start = needToVisit.popLast()
+//            
+//            for end in network[start] {
+//                if visited[]
+//                
+//                
+//                
+//            }
+//        }
+//        
+//    }
 }
