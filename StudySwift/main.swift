@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-MinimumSquare.test()
+PretestSolution.test()
 
