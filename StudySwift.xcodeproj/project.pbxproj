@@ -96,6 +96,7 @@
 		2EBA3ED12C96B54B00D98F20 /* TruckCorrsingTheBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ED02C96B54B00D98F20 /* TruckCorrsingTheBridge.swift */; };
 		2EBA3ED32C96BA1B00D98F20 /* DoublePriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ED22C96BA1B00D98F20 /* DoublePriorityQueue.swift */; };
 		2EBA3ED52C9801A900D98F20 /* PretestSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ED42C9801A900D98F20 /* PretestSolution.swift */; };
+		2EBA3ED72C98310B00D98F20 /* CarpetSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ED62C98310B00D98F20 /* CarpetSolution.swift */; };
 		2EBB20632813E87800A8C51D /* FlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20622813E87800A8C51D /* FlatMap.swift */; };
 		2EBB20652813F29400A8C51D /* Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20642813F29400A8C51D /* Published.swift */; };
 		2EC087CA2C66175700CF4E7D /* FindPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC087C92C66175700CF4E7D /* FindPrimes.swift */; };
@@ -223,6 +224,7 @@
 		2EBA3ED02C96B54B00D98F20 /* TruckCorrsingTheBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckCorrsingTheBridge.swift; sourceTree = "<group>"; };
 		2EBA3ED22C96BA1B00D98F20 /* DoublePriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublePriorityQueue.swift; sourceTree = "<group>"; };
 		2EBA3ED42C9801A900D98F20 /* PretestSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretestSolution.swift; sourceTree = "<group>"; };
+		2EBA3ED62C98310B00D98F20 /* CarpetSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpetSolution.swift; sourceTree = "<group>"; };
 		2EBB20622813E87800A8C51D /* FlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMap.swift; sourceTree = "<group>"; };
 		2EBB20642813F29400A8C51D /* Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published.swift; sourceTree = "<group>"; };
 		2EC087C92C66175700CF4E7D /* FindPrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPrimes.swift; sourceTree = "<group>"; };
@@ -611,6 +613,7 @@
 				2E96A70D2C69C581009138F9 /* DivideNetwork.swift */,
 				2E5F8E8F2C6DAD66000509C9 /* DictionaryTest.swift */,
 				2EBA3ED42C9801A900D98F20 /* PretestSolution.swift */,
+				2EBA3ED62C98310B00D98F20 /* CarpetSolution.swift */,
 			);
 			path = CompleteSearch;
 			sourceTree = "<group>";
@@ -871,6 +874,7 @@
 				2E25F99F281EA1CE00DC8F43 /* MutatingFunction.swift in Sources */,
 				2E653DDC2C957B2B00A6B57C /* QuickSort.swift in Sources */,
 				2E0BE9CA282007000002DD61 /* OptionalRequirement.swift in Sources */,
+				2EBA3ED72C98310B00D98F20 /* CarpetSolution.swift in Sources */,
 				2EB89558280653B700F96D4D /* Self.swift in Sources */,
 				2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */,
 				2E15D08128BCFABF00A03983 /* Array.swift in Sources */,
