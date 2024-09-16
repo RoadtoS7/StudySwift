@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-BestAlbum.test()
+MinimumSquare.test()
 
