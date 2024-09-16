@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-CarpetSolution.test()
+TiredSolution.test()
 
