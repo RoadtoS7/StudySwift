@@ -99,6 +99,8 @@
 		2EBA3ED72C98310B00D98F20 /* CarpetSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ED62C98310B00D98F20 /* CarpetSolution.swift */; };
 		2EBA3ED92C98362B00D98F20 /* TiredSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3ED82C98362B00D98F20 /* TiredSolution.swift */; };
 		2EBA3EDC2C98418300D98F20 /*  GymClothSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3EDB2C98418300D98F20 /*  GymClothSolution.swift */; };
+		2EBA3EDE2C985BF100D98F20 /* JoyStickSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3EDD2C985BF100D98F20 /* JoyStickSolution.swift */; };
+		2EBA3EE02C98689B00D98F20 /* MakeTheBiggestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3EDF2C98689B00D98F20 /* MakeTheBiggestNumber.swift */; };
 		2EBB20632813E87800A8C51D /* FlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20622813E87800A8C51D /* FlatMap.swift */; };
 		2EBB20652813F29400A8C51D /* Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20642813F29400A8C51D /* Published.swift */; };
 		2EC087CA2C66175700CF4E7D /* FindPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC087C92C66175700CF4E7D /* FindPrimes.swift */; };
@@ -229,6 +231,8 @@
 		2EBA3ED62C98310B00D98F20 /* CarpetSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpetSolution.swift; sourceTree = "<group>"; };
 		2EBA3ED82C98362B00D98F20 /* TiredSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiredSolution.swift; sourceTree = "<group>"; };
 		2EBA3EDB2C98418300D98F20 /*  GymClothSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " GymClothSolution.swift"; sourceTree = "<group>"; };
+		2EBA3EDD2C985BF100D98F20 /* JoyStickSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStickSolution.swift; sourceTree = "<group>"; };
+		2EBA3EDF2C98689B00D98F20 /* MakeTheBiggestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTheBiggestNumber.swift; sourceTree = "<group>"; };
 		2EBB20622813E87800A8C51D /* FlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMap.swift; sourceTree = "<group>"; };
 		2EBB20642813F29400A8C51D /* Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published.swift; sourceTree = "<group>"; };
 		2EC087C92C66175700CF4E7D /* FindPrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPrimes.swift; sourceTree = "<group>"; };
@@ -681,6 +685,8 @@
 			isa = PBXGroup;
 			children = (
 				2EBA3EDB2C98418300D98F20 /*  GymClothSolution.swift */,
+				2EBA3EDD2C985BF100D98F20 /* JoyStickSolution.swift */,
+				2EBA3EDF2C98689B00D98F20 /* MakeTheBiggestNumber.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -848,6 +854,7 @@
 				2EC26F4F27E02B2D00574900 /* weak_self_problem.swift in Sources */,
 				2EE93E36282149BC00BEEB5A /* MoreGeneric.swift in Sources */,
 				2EDC959F2A95F33E00E72F2D /* StringInterPolation.swift in Sources */,
+				2EBA3EDE2C985BF100D98F20 /* JoyStickSolution.swift in Sources */,
 				2E1A2CF1282D3D1800A5D603 /* SwiftyCode_UseExtension.swift in Sources */,
 				2E6F68852C95D626005BD475 /* HIndex.swift in Sources */,
 				2EBA3ED32C96BA1B00D98F20 /* DoublePriorityQueue.swift in Sources */,
@@ -934,6 +941,7 @@
 				2E612F1A27F3368F00088E42 /* Automatic Initalizer Inheritance.swift in Sources */,
 				2EAB303B2833C3D600B80DB0 /* what problem opaquetype does solve .swift in Sources */,
 				2E96A70E2C69C581009138F9 /* DivideNetwork.swift in Sources */,
+				2EBA3EE02C98689B00D98F20 /* MakeTheBiggestNumber.swift in Sources */,
 				2EB2D1152B4CC744003F4CF9 /* CommentSuccessCaseBook.swift in Sources */,
 				2EC578B02C6097F1000E90C5 /* TheBiggestNumber.swift in Sources */,
 				2E1193512C70541A00E4B6D3 /* NetworkSolution.swift in Sources */,
