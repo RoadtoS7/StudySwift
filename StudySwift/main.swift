@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-MakeTheBiggestNumber.test()
+LinkIsland.test()
 
