@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-FourBasicOperationsSolution.test()
+TargetNumberSolution.test()
 

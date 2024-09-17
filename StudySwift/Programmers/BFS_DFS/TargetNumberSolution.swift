@@ -67,4 +67,34 @@ final class TargetNumberSolution {
         searchTarget(number: numbers, target: target, depth: 0, value: 0, answer: &answer)
         return answer
     }
+    
+    func solution4(_ numbers: [Int], _ target: Int) -> Int {
+        let result = dfs(n: numbers.count, numbers: numbers, target: target, currentNumber: 0, i: 0)
+        return result
+    }
+    
+    func dfs(n: Int, numbers: [Int], target: Int, currentNumber: Int, i: Int) -> Int {
+        if i >= n {
+            if currentNumber == target {
+                return 1
+            }
+            else {
+                return 0
+            }
+        }
+        
+        let plsuResult = dfs(n: n, numbers: numbers, target: target, currentNumber: currentNumber + numbers[i], i: i + 1)
+        let minusResult = dfs(n: n, numbers: numbers, target: target, currentNumber: currentNumber - numbers[i], i: i + 1)
+        return plsuResult + minusResult
+    }
+    
+    static func test() {
+        [
+            ([1, 1, 1, 1, 1], 3),
+            ([4, 1, 2, 1], 4)
+        ].forEach {
+            print(TargetNumberSolution().solution4($0, $1))
+        }
+        
+    }
 }
