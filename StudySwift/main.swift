@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-LinkIsland.test()
+NExpresssion.test()
 

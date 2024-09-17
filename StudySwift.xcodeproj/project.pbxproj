@@ -102,6 +102,7 @@
 		2EBA3EDE2C985BF100D98F20 /* JoyStickSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3EDD2C985BF100D98F20 /* JoyStickSolution.swift */; };
 		2EBA3EE02C98689B00D98F20 /* MakeTheBiggestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3EDF2C98689B00D98F20 /* MakeTheBiggestNumber.swift */; };
 		2EBA3EE22C99550200D98F20 /* LinkIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3EE12C99550200D98F20 /* LinkIsland.swift */; };
+		2EBA3EE72C9966EC00D98F20 /* NExpresssion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA3EE62C9966EC00D98F20 /* NExpresssion.swift */; };
 		2EBB20632813E87800A8C51D /* FlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20622813E87800A8C51D /* FlatMap.swift */; };
 		2EBB20652813F29400A8C51D /* Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB20642813F29400A8C51D /* Published.swift */; };
 		2EC087CA2C66175700CF4E7D /* FindPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC087C92C66175700CF4E7D /* FindPrimes.swift */; };
@@ -235,6 +236,7 @@
 		2EBA3EDD2C985BF100D98F20 /* JoyStickSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStickSolution.swift; sourceTree = "<group>"; };
 		2EBA3EDF2C98689B00D98F20 /* MakeTheBiggestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTheBiggestNumber.swift; sourceTree = "<group>"; };
 		2EBA3EE12C99550200D98F20 /* LinkIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkIsland.swift; sourceTree = "<group>"; };
+		2EBA3EE62C9966EC00D98F20 /* NExpresssion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NExpresssion.swift; sourceTree = "<group>"; };
 		2EBB20622813E87800A8C51D /* FlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMap.swift; sourceTree = "<group>"; };
 		2EBB20642813F29400A8C51D /* Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published.swift; sourceTree = "<group>"; };
 		2EC087C92C66175700CF4E7D /* FindPrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPrimes.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 		2E0BF4F62C5C5AAF00FAC1E4 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				2EBA3EE52C9966E300D98F20 /* DynamicProgramming_DP */,
 				2EBA3EDA2C9840AE00D98F20 /* Greedy */,
 				2EBA3EC92C95DB8B00D98F20 /* Hash */,
 				2E653DEA2C95C3A600A6B57C /* Heap */,
@@ -694,6 +697,14 @@
 			path = Greedy;
 			sourceTree = "<group>";
 		};
+		2EBA3EE52C9966E300D98F20 /* DynamicProgramming_DP */ = {
+			isa = PBXGroup;
+			children = (
+				2EBA3EE62C9966EC00D98F20 /* NExpresssion.swift */,
+			);
+			path = DynamicProgramming_DP;
+			sourceTree = "<group>";
+		};
 		2EBB20612813E86B00A8C51D /* Combine */ = {
 			isa = PBXGroup;
 			children = (
@@ -902,6 +913,7 @@
 				2EBA3ED72C98310B00D98F20 /* CarpetSolution.swift in Sources */,
 				2EB89558280653B700F96D4D /* Self.swift in Sources */,
 				2EBA3EDC2C98418300D98F20 /*  GymClothSolution.swift in Sources */,
+				2EBA3EE72C9966EC00D98F20 /* NExpresssion.swift in Sources */,
 				2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */,
 				2E15D08128BCFABF00A03983 /* Array.swift in Sources */,
 				2E167DDD2ACE73870002B921 /* StandaloneMacro.swift in Sources */,
