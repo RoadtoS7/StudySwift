@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-JoyStickSolution.test()
+MakeTheBiggestNumber.test()
 

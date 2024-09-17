@@ -1,46 +1,43 @@
-////
-////  MakeTheBiggestNumber.swift
-////  StudySwift
-////
-////  Created by nylah.j on 9/16/24.
-////
 //
-//import Foundation
+//  MakeTheBiggestNumber.swift
+//  StudySwift
 //
-//final class MakeTheBiggestNumber {
-//    func solution(_ number:String, _ k:Int) -> String {
-//        
-//        var count = 0
-//        var numberChars: [Character] = number.map { $0 }
-//        
-//        func remove() {
-//            // 가장 큰 숫자인지를 어떻게 알지?
-//            // 가장 큰
-//            for i in 0...<numberChars.count {
-//                
-//            }
-//        }
-//        
-//        ///
-//        let number: [Int] = number.compactMap { (numberLit: Character) in
-//            Int(String(numberLit))
-//        }.sorted(by: >)
-//        
-//        let until: Int = number.count - k
-//        let result = number[0..<until].reduce("") { partialResult, number in
-//            "\(partialResult)\(number)"
-//        }
-//        return result
-//    }
-//    
-//    static func test() {
-//        [
-//            ("1924", 2),
-//            ("1231234", 3),
-//            ("4177252841",4),
-//        ].forEach {
-//            print(MakeTheBiggestNumber().solution($0, $1))
-//        }
-//        
-//    }
-//}
+//  Created by nylah.j on 9/16/24.
+//
+
+import Foundation
+
+final class MakeTheBiggestNumber {
+    func solution(_ number:String, _ k:Int) -> String {
+        let number = number.compactMap { Int(String($0)) }
+        var result: [Int] = []
+        var removeCount: Int = 0
+        
+        
+        for num in number {
+            while removeCount < k {
+                if let last = result.last, last < num {
+                    result.popLast()
+                    removeCount += 1
+                } else {
+                    break
+                }
+            }
+            
+            result.append(num)
+        }
+        
+        return result[0..<result.count - (k - removeCount)].map { "\($0)" }.joined()
+    }
+    
+    static func test() {
+        [
+            ("1924", 2),
+            ("1231234", 3),
+            ("4177252841",4),
+        ].forEach {
+            print(MakeTheBiggestNumber().solution($0, $1))
+        }
+        
+    }
+}
