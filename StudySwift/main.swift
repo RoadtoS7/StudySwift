@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-TripPath.test()
+DivideNetwork.test()
 

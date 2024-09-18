@@ -98,38 +98,74 @@ final class DivideNetwork {
         return count
     }
     
-//    func solution3(_ n:Int, _ wires:[[Int]]) -> Int {
-//        // 전력망을 하나 없앤다.
-//        // 탐색하면서 개수를 센다.
-//        // 개수 차이를 얻어서 max값을 구한다.
-//        let network = makeNetwork(wires)
-//    
-//    }
-//    
-//    private func makeNetwork(_ wires: [[Int]]) -> [Int: [Int]] {
-//        var result = [Int:[Int]]()
-//        for wire in wires {
-//            let (start, end) = (wire[0], wire[1])
-//            result[start, default: []].append(end)
-//            result[end, default: []].append(start)
-//        }
-//        return result
-//    }
-//    
-//    private func traverse(_ network: [Int: [Int]]) {
-//        var needToVisit: [Int] = network.values.first!
-//        let (exStart, exEnd) = (excluded[0], excluded[1])
-//        
-//        while needToVisit.isEmpty == false {
-//            let start = needToVisit.popLast()
-//            
-//            for end in network[start] {
-//                if visited[]
-//                
-//                
-//                
-//            }
-//        }
-//        
-//    }
+    func solution3(_ n:Int, _ wires:[[Int]]) -> Int {
+        // 전력망을 하나 없앤다.
+        // 탐색하면서 개수를 센다.
+        // 개수 차이를 얻어서 max값을 구한다.
+        
+        let network = makeNetwork(wires)
+        var minCount: Int = .max
+        for wire in wires {
+            minCount = min(minCount, diffCount(network, excluded: wire))
+        }
+        
+        return minCount
+    }
+    
+    private func makeNetwork(_ wires: [[Int]]) -> [Int: [Int]] {
+        var result = [Int:[Int]]()
+        for wire in wires {
+            let (start, end) = (wire[0], wire[1])
+            result[start, default: []].append(end)
+            result[end, default: []].append(start)
+        }
+        return result
+    }
+    
+    private func diffCount(_ network: [Int: [Int]], excluded: [Int]) -> Int {
+        var visited: [Int:Bool] = .init(uniqueKeysWithValues: network.keys.map({
+            ($0, false)
+        }))
+        
+        visited[network.keys.first!] = true
+        var needToVisit: [Int] = [network.keys.first!]
+        
+        
+        let (exStart, exEnd) = (excluded[0], excluded[1])
+        
+        while needToVisit.isEmpty == false {
+            let start = needToVisit.popLast()!
+            
+            for end in network[start, default: []] {
+                if visited[end, default: false] {
+                    continue
+                }
+                if exStart == start, exEnd == end {
+                    continue
+                }
+                
+                if exStart == end, exEnd == start {
+                    continue
+                }
+                
+                visited[end] = true
+                needToVisit.append(end)
+            }
+        }
+        
+        let visitedCount: Int = visited.filter { $0.value == true }.count
+        let notVisitiedCount: Int = visited.filter { $0.value == false }.count
+        return abs(visitedCount - notVisitiedCount)
+    }
+    
+    static func test() {
+        [
+            (9,    [[1,3],[2,3],[3,4],[4,5],[4,6],[4,7],[7,8],[7,9]]),
+            (4,    [[1,2],[2,3],[3,4]]),
+            (7,    [[1,2],[2,7],[3,7],[3,4],[4,5],[6,7]])
+        ].forEach {
+            print(DivideNetwork().solution3($0, $1))
+        }
+        
+    }
 }
