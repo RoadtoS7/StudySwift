@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-ConvertWords.test()
+TripPath.test()
 
