@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-DivideNetwork.test()
+DictionaryTest.test()
 

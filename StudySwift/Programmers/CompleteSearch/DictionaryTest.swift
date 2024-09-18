@@ -54,6 +54,68 @@ final class DictionaryTest {
         
         dfs("")
         return allKinds.firstIndex(of: word)!
+    }
+    
+    func solution3(word: String) -> Int {
+        let voul = ["A", "E", "I", "O", "U"]
+        var temp: String = ""
+        var count: Int = 0
         
+        for i in 0..<5 { // 0번째 인덱스
+            temp.append(voul[i])
+            count += 1
+            if temp == word {
+                return count
+            }
+            
+            for j in 0..<5 { // 1번째 인덱스
+                temp.append(voul[j])
+                count += 1
+                if temp == word {
+                    return count
+                }
+                
+                for k in 0..<5 { // 2번째 인덱스
+                    temp.append(voul[k])
+                    count += 1
+                    if temp == word {
+                        return count
+                    }
+                    
+                    for l in 0..<5 { // 3번째 인덱스
+                        temp.append(voul[l])
+                        count += 1
+                        if temp == word {
+                            return count
+                        }
+                        
+                        for m in 0..<5 { // 3번째 인덱스
+                            temp.append(voul[m]) // 4번째 인덱스
+                            count += 1
+                            if temp == word {
+                                return count
+                            }
+                            temp.removeLast()
+                        }
+                        temp.removeLast()
+                    }
+                    temp.removeLast()
+                }
+                temp.removeLast()
+            }
+            temp.removeLast()
+        }
+        return count
+    }
+    
+    static func test() {
+        [
+            "AAAAE",
+            "AAAE",
+            "I",
+            "EIO"
+        ].forEach {
+            print(DictionaryTest().solution3(word: $0))
+        }
     }
 }
