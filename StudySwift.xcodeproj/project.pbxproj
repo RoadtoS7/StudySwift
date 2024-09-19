@@ -116,6 +116,7 @@
 		2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46427D488E2004B4B7D /* ARC.swift */; };
 		2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46627D98A6A004B4B7D /* Integer.swift */; };
 		2EDC959F2A95F33E00E72F2D /* StringInterPolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */; };
+		2EE3BA3A2C9C4AA100458D35 /* MaxMinSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3BA392C9C4AA100458D35 /* MaxMinSolution.swift */; };
 		2EE50EE72BBA41CE00B559CB /* CheckingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50EE62BBA41CE00B559CB /* CheckingAccount.swift */; };
 		2EE50EE92BBA47FE00B559CB /* CheckingAccount+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50EE82BBA47FE00B559CB /* CheckingAccount+.swift */; };
 		2EE50EEB2BBA4ADF00B559CB /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50EEA2BBA4ADF00B559CB /* Account.swift */; };
@@ -251,6 +252,7 @@
 		2ED9F46427D488E2004B4B7D /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
 		2ED9F46627D98A6A004B4B7D /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
 		2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterPolation.swift; sourceTree = "<group>"; };
+		2EE3BA392C9C4AA100458D35 /* MaxMinSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMinSolution.swift; sourceTree = "<group>"; };
 		2EE50EE62BBA41CE00B559CB /* CheckingAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingAccount.swift; sourceTree = "<group>"; };
 		2EE50EE82BBA47FE00B559CB /* CheckingAccount+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckingAccount+.swift"; sourceTree = "<group>"; };
 		2EE50EEA2BBA4ADF00B559CB /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 		2E0BF4F62C5C5AAF00FAC1E4 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				2EE3BA382C9C4A9900458D35 /* Other */,
 				2EBA3EE52C9966E300D98F20 /* DynamicProgramming_DP */,
 				2EBA3EDA2C9840AE00D98F20 /* Greedy */,
 				2EBA3EC92C95DB8B00D98F20 /* Hash */,
@@ -754,6 +757,14 @@
 			path = StringInterpolation;
 			sourceTree = "<group>";
 		};
+		2EE3BA382C9C4A9900458D35 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2EE3BA392C9C4AA100458D35 /* MaxMinSolution.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		2EE50EE52BBA41C500B559CB /* AccessControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -873,6 +884,7 @@
 				2EDC959F2A95F33E00E72F2D /* StringInterPolation.swift in Sources */,
 				2EBA3EDE2C985BF100D98F20 /* JoyStickSolution.swift in Sources */,
 				2E1A2CF1282D3D1800A5D603 /* SwiftyCode_UseExtension.swift in Sources */,
+				2EE3BA3A2C9C4AA100458D35 /* MaxMinSolution.swift in Sources */,
 				2E6F68852C95D626005BD475 /* HIndex.swift in Sources */,
 				2EBA3ED32C96BA1B00D98F20 /* DoublePriorityQueue.swift in Sources */,
 				2E0937B02B170B740076EC3B /* FlatMapInHigherFunction.swift in Sources */,
