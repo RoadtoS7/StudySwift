@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-Number3.test()
+Number1.test()
 
