@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-Number1.test()
+NumberGameSolution.test()
 

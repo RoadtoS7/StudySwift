@@ -117,6 +117,7 @@
 		2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46627D98A6A004B4B7D /* Integer.swift */; };
 		2EDC959F2A95F33E00E72F2D /* StringInterPolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */; };
 		2EE3BA3A2C9C4AA100458D35 /* MaxMinSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3BA392C9C4AA100458D35 /* MaxMinSolution.swift */; };
+		2EE3BA3C2C9C4C0300458D35 /* NumberGameSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3BA3B2C9C4C0300458D35 /* NumberGameSolution.swift */; };
 		2EE50EE72BBA41CE00B559CB /* CheckingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50EE62BBA41CE00B559CB /* CheckingAccount.swift */; };
 		2EE50EE92BBA47FE00B559CB /* CheckingAccount+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50EE82BBA47FE00B559CB /* CheckingAccount+.swift */; };
 		2EE50EEB2BBA4ADF00B559CB /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50EEA2BBA4ADF00B559CB /* Account.swift */; };
@@ -253,6 +254,7 @@
 		2ED9F46627D98A6A004B4B7D /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
 		2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterPolation.swift; sourceTree = "<group>"; };
 		2EE3BA392C9C4AA100458D35 /* MaxMinSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMinSolution.swift; sourceTree = "<group>"; };
+		2EE3BA3B2C9C4C0300458D35 /* NumberGameSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGameSolution.swift; sourceTree = "<group>"; };
 		2EE50EE62BBA41CE00B559CB /* CheckingAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingAccount.swift; sourceTree = "<group>"; };
 		2EE50EE82BBA47FE00B559CB /* CheckingAccount+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckingAccount+.swift"; sourceTree = "<group>"; };
 		2EE50EEA2BBA4ADF00B559CB /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
@@ -761,6 +763,7 @@
 			isa = PBXGroup;
 			children = (
 				2EE3BA392C9C4AA100458D35 /* MaxMinSolution.swift */,
+				2EE3BA3B2C9C4C0300458D35 /* NumberGameSolution.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -959,6 +962,7 @@
 				2E15D07328BCF95F00A03983 /* Extension.swift in Sources */,
 				2EE50EE92BBA47FE00B559CB /* CheckingAccount+.swift in Sources */,
 				2E25F9A1281EA4F700DC8F43 /* Initializer.swift in Sources */,
+				2EE3BA3C2C9C4C0300458D35 /* NumberGameSolution.swift in Sources */,
 				2E653DDE2C95815700A6B57C /* BubbleSort.swift in Sources */,
 				2EBA3ECD2C95DF4D00D98F20 /* BestAlbum.swift in Sources */,
 				2E1A2CED282D383100A5D603 /* Reduce.swift in Sources */,
