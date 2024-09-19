@@ -116,12 +116,48 @@ final class TripPath {
         }
     }
     
+    func solution5(_ tickets:[[String]]) -> [String] {
+        var network: [String:[String]]  = [:]
+        var result: [String] = []
+        var ticketCount: [String:Int] = [:]
+        
+        for ticket in tickets {
+            let (from, end) = (ticket[0], ticket[1])
+            network[from, default: []].append(end)
+            ticketCount["\(from)\(end)", default: 0] += 1
+        }
+        
+        for key in network.keys {
+            network[key, default: []].sort(by: <)
+        }
+        
+        func dfs(from: String, path: [String], ticketCount: [String:Int]) {
+            if ticketCount.values.reduce(0, +) == .zero, result.isEmpty {
+                result = path
+                return
+            }
+            
+            for to in network[from, default: []] {
+                let key = "\(from)\(to)"
+                if ticketCount[key, default: 0] > 0 {
+                    var ticketCount = ticketCount
+                    ticketCount[key, default: 0] -= 1
+                    dfs(from: to, path: path + [to], ticketCount: ticketCount)
+                    ticketCount[key, default: 0] += 1
+                }
+            }
+        }
+        
+        dfs(from: "ICN", path: ["ICN"], ticketCount: ticketCount)
+        return result
+    }
+    
     static func test() {
         [
-            [["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]],
+//            [["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]],
             [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
         ].forEach {
-            print(TripPath().solution2($0))
+            print(TripPath().solution5($0))
         }
     }
 }

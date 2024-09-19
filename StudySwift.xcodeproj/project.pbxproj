@@ -116,6 +116,9 @@
 		2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46427D488E2004B4B7D /* ARC.swift */; };
 		2ED9F46727D98A6A004B4B7D /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9F46627D98A6A004B4B7D /* Integer.swift */; };
 		2EDC959F2A95F33E00E72F2D /* StringInterPolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */; };
+		2EE3BA332C9BE89500458D35 /* Number1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3BA322C9BE89500458D35 /* Number1.swift */; };
+		2EE3BA352C9BE89C00458D35 /* Number2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3BA342C9BE89C00458D35 /* Number2.swift */; };
+		2EE3BA372C9BEDA800458D35 /* Number3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3BA362C9BEDA800458D35 /* Number3.swift */; };
 		2EE50EE72BBA41CE00B559CB /* CheckingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50EE62BBA41CE00B559CB /* CheckingAccount.swift */; };
 		2EE50EE92BBA47FE00B559CB /* CheckingAccount+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50EE82BBA47FE00B559CB /* CheckingAccount+.swift */; };
 		2EE50EEB2BBA4ADF00B559CB /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50EEA2BBA4ADF00B559CB /* Account.swift */; };
@@ -251,6 +254,9 @@
 		2ED9F46427D488E2004B4B7D /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
 		2ED9F46627D98A6A004B4B7D /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
 		2EDC959E2A95F33E00E72F2D /* StringInterPolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterPolation.swift; sourceTree = "<group>"; };
+		2EE3BA322C9BE89500458D35 /* Number1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number1.swift; sourceTree = "<group>"; };
+		2EE3BA342C9BE89C00458D35 /* Number2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number2.swift; sourceTree = "<group>"; };
+		2EE3BA362C9BEDA800458D35 /* Number3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number3.swift; sourceTree = "<group>"; };
 		2EE50EE62BBA41CE00B559CB /* CheckingAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingAccount.swift; sourceTree = "<group>"; };
 		2EE50EE82BBA47FE00B559CB /* CheckingAccount+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckingAccount+.swift"; sourceTree = "<group>"; };
 		2EE50EEA2BBA4ADF00B559CB /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
@@ -289,6 +295,7 @@
 		2E0BF4F62C5C5AAF00FAC1E4 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				2EE3BA312C9BE88A00458D35 /* LinePlus */,
 				2EBA3EE52C9966E300D98F20 /* DynamicProgramming_DP */,
 				2EBA3EDA2C9840AE00D98F20 /* Greedy */,
 				2EBA3EC92C95DB8B00D98F20 /* Hash */,
@@ -754,6 +761,16 @@
 			path = StringInterpolation;
 			sourceTree = "<group>";
 		};
+		2EE3BA312C9BE88A00458D35 /* LinePlus */ = {
+			isa = PBXGroup;
+			children = (
+				2EE3BA322C9BE89500458D35 /* Number1.swift */,
+				2EE3BA342C9BE89C00458D35 /* Number2.swift */,
+				2EE3BA362C9BEDA800458D35 /* Number3.swift */,
+			);
+			path = LinePlus;
+			sourceTree = "<group>";
+		};
 		2EE50EE52BBA41C500B559CB /* AccessControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -936,9 +953,12 @@
 				2E653DE22C95844900A6B57C /* CountingSort.swift in Sources */,
 				2E1E9AA42945C93E00E001BE /* file_referncecount개념과_강한참조개념.swift in Sources */,
 				2E0937AE2B16DB730076EC3B /* TestWeak.swift in Sources */,
+				2EE3BA352C9BE89C00458D35 /* Number2.swift in Sources */,
 				2E17A62B293A39BB00E7552D /* magic.swift in Sources */,
 				2E8B55242C7821A000AB5EF1 /* TaskContextSwitching.swift in Sources */,
+				2EE3BA332C9BE89500458D35 /* Number1.swift in Sources */,
 				2E60B06F2A7C82CC00680EBC /* AsycnSyncSerialConcurrent.swift in Sources */,
+				2EE3BA372C9BEDA800458D35 /* Number3.swift in Sources */,
 				2E88B59E2C635535003F137A /* MinimumSquare.swift in Sources */,
 				2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */,
 				2EBA3ECF2C9699DF00D98F20 /* ProcessSolution.swift in Sources */,

@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 
-DictionaryTest.test()
+Number3.test()
 
