@@ -46,6 +46,7 @@
 		2E2E44512C85746D0044B43D /* CountWhere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E44502C85746D0044B43D /* CountWhere.swift */; };
 		2E30D1BC2C75B9B0002B4972 /* FillThePuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E30D1BB2C75B9B0002B4972 /* FillThePuzzle.swift */; };
 		2E30D1BF2C76110E002B4972 /* TypedThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E30D1BE2C76110E002B4972 /* TypedThrows.swift */; };
+		2E3550E12C9EB68A00B3E33C /* BuildBaseStationSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3550E02C9EB68A00B3E33C /* BuildBaseStationSolution.swift */; };
 		2E44C2A32805C81C00001E12 /* Assigning Constant Properties During Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44C2A22805C81C00001E12 /* Assigning Constant Properties During Initialization.swift */; };
 		2E45CE8D27BB8E6B0002F847 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE8C27BB8E6B0002F847 /* main.swift */; };
 		2E45CE9427BB8E890002F847 /* KeyPathExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45CE9327BB8E890002F847 /* KeyPathExpression.swift */; };
@@ -179,6 +180,7 @@
 		2E2E44502C85746D0044B43D /* CountWhere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountWhere.swift; sourceTree = "<group>"; };
 		2E30D1BB2C75B9B0002B4972 /* FillThePuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillThePuzzle.swift; sourceTree = "<group>"; };
 		2E30D1BE2C76110E002B4972 /* TypedThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedThrows.swift; sourceTree = "<group>"; };
+		2E3550E02C9EB68A00B3E33C /* BuildBaseStationSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildBaseStationSolution.swift; sourceTree = "<group>"; };
 		2E44C2A22805C81C00001E12 /* Assigning Constant Properties During Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assigning Constant Properties During Initialization.swift"; sourceTree = "<group>"; };
 		2E45CE8927BB8E6B0002F847 /* StudySwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudySwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E45CE8C27BB8E6B0002F847 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -764,6 +766,7 @@
 			children = (
 				2EE3BA392C9C4AA100458D35 /* MaxMinSolution.swift */,
 				2EE3BA3B2C9C4C0300458D35 /* NumberGameSolution.swift */,
+				2E3550E02C9EB68A00B3E33C /* BuildBaseStationSolution.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -921,6 +924,7 @@
 				2E1A2CF4282D3D6B00A5D603 /* SwiftyCode_UseCustomProperty.swift in Sources */,
 				2E30D1BF2C76110E002B4972 /* TypedThrows.swift in Sources */,
 				2E653DE02C9582CB00A6B57C /* SelectionSort.swift in Sources */,
+				2E3550E12C9EB68A00B3E33C /* BuildBaseStationSolution.swift in Sources */,
 				2E653DD82C95685600A6B57C /* MergeSort.swift in Sources */,
 				2E653DEC2C95C3AF00A6B57C /* DiskController.swift in Sources */,
 				2E2C520E28C8B2F700239EBB /* UtilityExtension.swift in Sources */,
