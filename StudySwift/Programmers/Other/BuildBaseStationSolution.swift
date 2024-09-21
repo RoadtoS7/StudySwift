@@ -34,6 +34,23 @@ final class BuildBaseStationSolution {
         return result
     }
     
+    func solution2(_ n:Int, _ stations:[Int], _ w:Int) -> Int{
+        var result = 0
+        var current = 1
+        var sIndex = 0
+        
+        while current <= n {
+            if sIndex < stations.count && current >= stations[sIndex] - w {
+                current = stations[sIndex] + w + 1
+                sIndex += 1
+            } else {
+                result += 1
+                current += (2 * w + 1)
+            }
+        }
+        return result
+    }
+    
     static func test() {
         [
             (11,    [4, 11],    1),
