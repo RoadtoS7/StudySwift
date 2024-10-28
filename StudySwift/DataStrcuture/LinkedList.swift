@@ -59,7 +59,7 @@ final class LinkedList2<T: Equatable> {
     }
 }
 
-final class LinkedList<T: Equatable> {
+final class LinkedList<T: Comparable> {
     var head: Node<T>?
     
     func append(value: T) {
@@ -114,5 +114,62 @@ final class LinkedList<T: Equatable> {
         list.delete(value: 2)
         print("After Deleting 2:")
         list.printAll()
+    }
+    
+    func sort() {
+        head = mergeSort(head)
+    }
+    
+    private func mergeSort(_ head: Node<T>?) -> Node<T>? {
+        guard let head else { return nil }
+        if head.next == nil { return head }
+        
+        let middelNode = findMiddelNode(head)
+        let nextOfMiddel = middelNode?.next
+        middelNode?.next = nil
+        let left = mergeSort(head)
+        let right = mergeSort(nextOfMiddel)
+        
+        return merge(left, right)
+    }
+    
+    private func findMiddelNode(_ head: Node<T>?) -> Node<T>? {
+        var slow = head
+        var fast = head
+        
+        while fast?.next != nil, fast?.next?.next != nil {
+            slow = slow?.next
+            fast = fast?.next?.next
+        }
+        
+        return slow
+    }
+    
+    private func merge(_ left: Node<T>?, _ right: Node<T>?) -> Node<T>? {
+        guard let left else { return right }
+        guard let right else { return left }
+        
+        if left.value < right.value {
+            left.next = merge(left.next, right)
+            return left
+        } else {
+            right.next = merge(left, right.next)
+            return right
+        }
+    }
+    
+    static func sortTest() {
+        let list = LinkedList<Int>()
+        list.append(value: 3)
+        list.append(value: 1)
+        list.append(value: 4)
+        list.append(value: 2)
+
+        print("Before sorting:")
+        list.printAll() // Output: 3 -> 1 -> 4 -> 2 -> nil
+
+        list.sort()
+        print("After sorting:")
+        list.printAll() // Output: 1 -> 2 -> 3 -> 4 -> nil
     }
 }
