@@ -51,6 +51,3 @@ final class MergeSort {
         print("$$ sortedNumbers: ", sortedNumbers)
     }
 }
-
-
-

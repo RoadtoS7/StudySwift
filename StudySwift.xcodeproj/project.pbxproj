@@ -127,6 +127,7 @@
 		2EF4E80D2BB1035E00A1181D /* KVOExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF4E80C2BB1035E00A1181D /* KVOExamples.swift */; };
 		F41C7E0C2C875C2800EB2554 /* RangeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C7E0B2C875C2800EB2554 /* RangeSet.swift */; };
 		F48B6F802CCE7FD8005C2B3F /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B6F7F2CCE7FD8005C2B3F /* LinkedList.swift */; };
+		F48B6F822CCFE039005C2B3F /* ActorTaskRelationShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B6F812CCFE039005C2B3F /* ActorTaskRelationShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -266,6 +267,7 @@
 		2EF4E80C2BB1035E00A1181D /* KVOExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOExamples.swift; sourceTree = "<group>"; };
 		F41C7E0B2C875C2800EB2554 /* RangeSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSet.swift; sourceTree = "<group>"; };
 		F48B6F7F2CCE7FD8005C2B3F /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		F48B6F812CCFE039005C2B3F /* ActorTaskRelationShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorTaskRelationShip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -649,6 +651,7 @@
 			isa = PBXGroup;
 			children = (
 				2E8B55232C7821A000AB5EF1 /* TaskContextSwitching.swift */,
+				F48B6F812CCFE039005C2B3F /* ActorTaskRelationShip.swift */,
 			);
 			path = ModernConcurrency;
 			sourceTree = "<group>";
@@ -929,6 +932,7 @@
 				2E30D1BF2C76110E002B4972 /* TypedThrows.swift in Sources */,
 				2E653DE02C9582CB00A6B57C /* SelectionSort.swift in Sources */,
 				2E3550E12C9EB68A00B3E33C /* BuildBaseStationSolution.swift in Sources */,
+				F48B6F822CCFE039005C2B3F /* ActorTaskRelationShip.swift in Sources */,
 				2E653DD82C95685600A6B57C /* MergeSort.swift in Sources */,
 				2E653DEC2C95C3AF00A6B57C /* DiskController.swift in Sources */,
 				2E2C520E28C8B2F700239EBB /* UtilityExtension.swift in Sources */,
