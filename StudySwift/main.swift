@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-LinkedList<Int>.sortTest()
+DoubleLinkedList<Int>.sortTest()
 
 
 

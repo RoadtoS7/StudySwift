@@ -128,6 +128,7 @@
 		F41C7E0C2C875C2800EB2554 /* RangeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C7E0B2C875C2800EB2554 /* RangeSet.swift */; };
 		F48B6F802CCE7FD8005C2B3F /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B6F7F2CCE7FD8005C2B3F /* LinkedList.swift */; };
 		F48B6F822CCFE039005C2B3F /* ActorTaskRelationShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B6F812CCFE039005C2B3F /* ActorTaskRelationShip.swift */; };
+		F4DF5D752CCFF3220037D92D /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF5D742CCFF3220037D92D /* DoublyLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -268,6 +269,7 @@
 		F41C7E0B2C875C2800EB2554 /* RangeSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSet.swift; sourceTree = "<group>"; };
 		F48B6F7F2CCE7FD8005C2B3F /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		F48B6F812CCFE039005C2B3F /* ActorTaskRelationShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorTaskRelationShip.swift; sourceTree = "<group>"; };
+		F4DF5D742CCFF3220037D92D /* DoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -586,6 +588,7 @@
 				2E653DD12C9538D000A6B57C /* Queue.swift */,
 				2E653DE52C95BA1E00A6B57C /* Heap.swift */,
 				F48B6F7F2CCE7FD8005C2B3F /* LinkedList.swift */,
+				F4DF5D742CCFF3220037D92D /* DoublyLinkedList.swift */,
 			);
 			path = DataStrcuture;
 			sourceTree = "<group>";
@@ -999,6 +1002,7 @@
 				2E15D08328BD023A00A03983 /* Set.swift in Sources */,
 				2E83F4F92B69B85B00EEA80F /* ProgressiveRefactorProcessor.swift in Sources */,
 				2E167DDF2ACE74690002B921 /* AttachedMacro.swift in Sources */,
+				F4DF5D752CCFF3220037D92D /* DoublyLinkedList.swift in Sources */,
 				2E45CE8D27BB8E6B0002F847 /* main.swift in Sources */,
 				2EF4E80D2BB1035E00A1181D /* KVOExamples.swift in Sources */,
 				2E104CE72B4B7B56005F0D26 /* CommentSuccessCase.swift in Sources */,
