@@ -129,6 +129,7 @@
 		F48B6F802CCE7FD8005C2B3F /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B6F7F2CCE7FD8005C2B3F /* LinkedList.swift */; };
 		F48B6F822CCFE039005C2B3F /* ActorTaskRelationShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B6F812CCFE039005C2B3F /* ActorTaskRelationShip.swift */; };
 		F4DF5D752CCFF3220037D92D /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF5D742CCFF3220037D92D /* DoublyLinkedList.swift */; };
+		F4DF5D772CCFF9160037D92D /* CircularLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF5D762CCFF9160037D92D /* CircularLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -270,6 +271,7 @@
 		F48B6F7F2CCE7FD8005C2B3F /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		F48B6F812CCFE039005C2B3F /* ActorTaskRelationShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorTaskRelationShip.swift; sourceTree = "<group>"; };
 		F4DF5D742CCFF3220037D92D /* DoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedList.swift; sourceTree = "<group>"; };
+		F4DF5D762CCFF9160037D92D /* CircularLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -589,6 +591,7 @@
 				2E653DE52C95BA1E00A6B57C /* Heap.swift */,
 				F48B6F7F2CCE7FD8005C2B3F /* LinkedList.swift */,
 				F4DF5D742CCFF3220037D92D /* DoublyLinkedList.swift */,
+				F4DF5D762CCFF9160037D92D /* CircularLinkedList.swift */,
 			);
 			path = DataStrcuture;
 			sourceTree = "<group>";
@@ -906,6 +909,7 @@
 				2ED9F46527D488E2004B4B7D /* ARC.swift in Sources */,
 				2E9F8B5B295F2EC9000DA978 /* Metatype.swift in Sources */,
 				2EBB20652813F29400A8C51D /* Published.swift in Sources */,
+				F4DF5D772CCFF9160037D92D /* CircularLinkedList.swift in Sources */,
 				2E17A62D293A4CC200E7552D /* DeferringExecution.swift in Sources */,
 				2E44C2A32805C81C00001E12 /* Assigning Constant Properties During Initialization.swift in Sources */,
 				2E67BBF427F136E5008D914C /* ControlStatement.swift in Sources */,
